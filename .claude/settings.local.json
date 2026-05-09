@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:breezy-variraptor-1aa.notion.site)",
+      "mcp__claude_ai_Notion__notion-fetch"
+    ]
+  }
+}
