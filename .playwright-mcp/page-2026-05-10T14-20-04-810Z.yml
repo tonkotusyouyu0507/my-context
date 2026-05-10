@@ -1,0 +1,645 @@
+- generic [ref=e2]:
+  - generic:
+    - generic:
+      - heading "キーボードショートカットを表示するには、はてなマークを押してください。 キーボードショートカットを表示" [level=2] [ref=e7]:
+        - generic [ref=e8]: キーボードショートカットを表示するには、はてなマークを押してください。
+        - link "キーボードショートカットを表示" [ref=e9] [cursor=pointer]:
+          - /url: /i/keyboard_shortcuts
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - dialog:
+                - group [active] [ref=e10]:
+                  - dialog "下書き" [ref=e1635]:
+                    - generic [ref=e1638]:
+                      - generic [ref=e1640]:
+                        - generic [ref=e1644]:
+                          - button "戻る" [ref=e1646] [cursor=pointer]:
+                            - img [ref=e1648]
+                          - heading "下書き" [level=2] [ref=e1653]
+                        - navigation "下書き" [ref=e1654]:
+                          - generic [ref=e1655]:
+                            - generic:
+                              - button "前" [disabled]:
+                                - generic:
+                                  - img
+                            - tablist [ref=e1657]:
+                              - tab "未送信ポスト" [ref=e1658] [cursor=pointer]:
+                                - generic [ref=e1661]: 未送信ポスト
+                              - tab "予約済み" [selected] [ref=e1662] [cursor=pointer]:
+                                - generic [ref=e1665]: 予約済み
+                            - generic:
+                              - button "次へ" [disabled]:
+                                - generic:
+                                  - img
+                      - generic [ref=e1669]:
+                        - generic [ref=e1670]: 少し時間を置く
+                        - generic [ref=e1671]: 作成したポストをすぐに送信しない場合、下書きに保存するか、スケジュールしましょう。
+      - generic [ref=e79]:
+        - button [ref=e80] [cursor=pointer]
+        - button [ref=e82] [cursor=pointer]
+        - banner [ref=e84]:
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - heading [level=1] [ref=e89] [cursor=pointer]:
+                - link [ref=e90]:
+                  - /url: /home
+                  - img [ref=e92]
+              - navigation [ref=e96]:
+                - link [ref=e97] [cursor=pointer]:
+                  - /url: /home
+                  - img [ref=e1672]
+                - link [ref=e103] [cursor=pointer]:
+                  - /url: /explore
+                  - img [ref=e106]
+                - link [ref=e109] [cursor=pointer]:
+                  - /url: /notifications
+                  - generic [ref=e111]:
+                    - img [ref=e112]
+                    - generic [ref=e116]: "2"
+                - link [ref=e117] [cursor=pointer]:
+                  - /url: /i/connect_people
+                  - img [ref=e120]
+                - link [ref=e123] [cursor=pointer]:
+                  - /url: /i/chat
+                  - img [ref=e126]
+                - link [ref=e129] [cursor=pointer]:
+                  - /url: /i/grok
+                  - img [ref=e132]
+                - link [ref=e136] [cursor=pointer]:
+                  - /url: /i/bookmarks
+                  - img [ref=e139]
+                - link [ref=e142] [cursor=pointer]:
+                  - /url: /i/jf/creators/studio
+                  - img [ref=e145]
+                - link [ref=e149] [cursor=pointer]:
+                  - /url: /i/premium_sign_up
+                  - img [ref=e152]
+                - link [ref=e155] [cursor=pointer]:
+                  - /url: /kyosuke_kakei
+                  - img [ref=e158]
+                - button [ref=e161] [cursor=pointer]:
+                  - img [ref=e164]
+              - link [ref=e168] [cursor=pointer]:
+                - /url: /compose/post
+                - img [ref=e170]
+            - button [ref=e176] [cursor=pointer]:
+              - generic [ref=e184]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+        - main [ref=e187]:
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - navigation [ref=e198]:
+                - generic [ref=e199]:
+                  - generic:
+                    - button [disabled]:
+                      - generic:
+                        - img
+                  - tablist [ref=e201]:
+                    - tab [selected] [ref=e202] [cursor=pointer]:
+                      - generic [ref=e205]: おすすめ
+                    - tab [ref=e207] [cursor=pointer]:
+                      - generic [ref=e210]: フォロー中
+                  - generic:
+                    - button [disabled]:
+                      - generic:
+                        - img
+              - generic:
+                - generic:
+                  - status:
+                    - button:
+                      - generic:
+                        - img
+                        - generic: 新しいポストを表示
+            - generic [ref=e217]:
+              - link [ref=e226] [cursor=pointer]:
+                - /url: /kyosuke_kakei
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+              - generic [ref=e229]:
+                - generic [ref=e247]:
+                  - generic [ref=e249]: いまどうしてる？
+                  - textbox [ref=e251]
+                - generic [ref=e258]:
+                  - navigation [ref=e259]:
+                    - generic [ref=e260]:
+                      - generic:
+                        - button [disabled]:
+                          - generic:
+                            - img
+                      - tablist [ref=e262]:
+                        - generic [ref=e265]:
+                          - button [ref=e266] [cursor=pointer]:
+                            - img [ref=e268]
+                          - button [ref=e272]
+                        - button [ref=e275] [cursor=pointer]:
+                          - img [ref=e277]
+                        - button [ref=e283] [cursor=pointer]:
+                          - img [ref=e285]
+                        - button [ref=e290] [cursor=pointer]:
+                          - img [ref=e292]
+                        - button [ref=e298] [cursor=pointer]:
+                          - img [ref=e300]
+                        - button [ref=e306] [cursor=pointer]:
+                          - img [ref=e308]
+                        - button [disabled] [ref=e313]:
+                          - img [ref=e315]
+                        - button [ref=e320] [cursor=pointer]:
+                          - img [ref=e322]
+                      - generic:
+                        - button [disabled]:
+                          - generic:
+                            - img
+                  - button [disabled] [ref=e327]:
+                    - generic [ref=e330]: ポストする
+            - region [ref=e333]:
+              - heading [level=1] [ref=e334]: ホームタイムライン
+              - generic [ref=e336]:
+                - article [ref=e340] [cursor=pointer]:
+                  - generic [ref=e346]:
+                    - link [ref=e358]:
+                      - /url: /sakura_25mochi
+                    - generic [ref=e361]:
+                      - generic [ref=e363]:
+                        - generic [ref=e366]:
+                          - link [ref=e369]:
+                            - /url: /sakura_25mochi
+                            - generic [ref=e370]:
+                              - generic [ref=e372]: さくらもち
+                              - img [ref=e375]
+                          - generic [ref=e379]:
+                            - link [ref=e381]:
+                              - /url: /sakura_25mochi
+                              - generic [ref=e382]: "@sakura_25mochi"
+                            - generic [ref=e383]: ·
+                            - link [ref=e385]:
+                              - /url: /sakura_25mochi/status/2053215933829955824
+                              - time [ref=e386]: 17時間
+                        - generic [ref=e388]:
+                          - button [ref=e390]:
+                            - img [ref=e395]
+                          - button [ref=e401]:
+                            - img [ref=e405]
+                      - generic [ref=e409]: 20歳前半の時に思い描いてた30歳の私 ・1～2年付き合った彼氏と結婚 ・マイホームたてるか検討中 ・悩みは常に子供のこと ・本当に仲のいい友達と２カ月に１回ペースで会う ・年に１回海外旅行 ・とにかく安定を求めてる 実際の30歳の私↓ ・２年付き合った彼氏と婚約破棄
+                      - group [ref=e412]:
+                        - button [ref=e414]:
+                          - generic [ref=e415]:
+                            - img [ref=e418]
+                            - generic [ref=e423]: "260"
+                        - button [ref=e425]:
+                          - generic [ref=e426]:
+                            - img [ref=e429]
+                            - generic [ref=e434]: "138"
+                        - button [ref=e436]:
+                          - generic [ref=e437]:
+                            - img [ref=e440]
+                            - generic [ref=e445]: 4,178
+                        - link [ref=e447]:
+                          - /url: /sakura_25mochi/status/2053215933829955824/analytics
+                          - generic [ref=e448]:
+                            - img [ref=e451]
+                            - generic [ref=e456]: 321万
+                        - button [ref=e458]:
+                          - img [ref=e462]
+                        - button [ref=e467]:
+                          - img [ref=e471]
+                - article [ref=e477] [cursor=pointer]:
+                  - generic [ref=e483]:
+                    - link [ref=e495]:
+                      - /url: /mora_nige
+                    - generic [ref=e498]:
+                      - generic [ref=e500]:
+                        - generic [ref=e503]:
+                          - link [ref=e506]:
+                            - /url: /mora_nige
+                            - generic [ref=e509]:
+                              - text: それいけ
+                              - img [ref=e510]
+                              - text: あかねちゃん
+                              - img [ref=e511]
+                              - text: 1y
+                          - generic [ref=e513]:
+                            - link [ref=e515]:
+                              - /url: /mora_nige
+                              - generic [ref=e516]: "@mora_nige"
+                            - generic [ref=e517]: ·
+                            - link [ref=e519]:
+                              - /url: /mora_nige/status/2053407489304223918
+                              - time [ref=e520]: 4時間
+                        - generic [ref=e522]:
+                          - button [ref=e524]:
+                            - img [ref=e529]
+                          - button [ref=e535]:
+                            - img [ref=e539]
+                      - generic [ref=e543]: ビックリした家族5人で外食5000円が辛いって書いてあるのかと思った
+                      - generic [ref=e545]:
+                        - generic [ref=e546]: 引用
+                        - link [ref=e547]:
+                          - generic [ref=e548]:
+                            - generic [ref=e566]:
+                              - generic [ref=e570]:
+                                - generic [ref=e572]:
+                                  - text: いら☺︎3y
+                                  - img [ref=e573]
+                                  - img [ref=e574]
+                                  - text: ＋1y5m
+                                  - img [ref=e575]
+                                - img [ref=e578]
+                              - generic [ref=e582]:
+                                - generic [ref=e585]: "@ddtwin_0728"
+                                - generic [ref=e586]: ·
+                                - time [ref=e590]: 10時間
+                            - generic [ref=e592]:
+                              - text: 家族５人、昼食外食で5000円飛ぶの辛すぎwwwwwwwwww 780円お子様ランチ×3、480円フライドポテト、1000円親ランチ×2、外税で5205円
+                              - img [ref=e593]
+                              - text: マジで重い
+                              - img [ref=e594]
+                              - text: 家で唐揚げ作って行けば1000円…もうそろそろお弁当になりそう
+                              - img [ref=e595]
+                      - group [ref=e598]:
+                        - button [ref=e600]:
+                          - generic [ref=e601]:
+                            - img [ref=e604]
+                            - generic [ref=e609]: "202"
+                        - button [ref=e611]:
+                          - generic [ref=e612]:
+                            - img [ref=e615]
+                            - generic [ref=e620]: "179"
+                        - button [ref=e622]:
+                          - generic [ref=e623]:
+                            - img [ref=e626]
+                            - generic [ref=e629]:
+                              - generic [ref=e1676]: 5,315
+                              - generic [ref=e631]: 5,322
+                        - link [ref=e633]:
+                          - /url: /mora_nige/status/2053407489304223918/analytics
+                          - generic [ref=e634]:
+                            - img [ref=e637]
+                            - generic [ref=e640]:
+                              - generic [ref=e1678]: 362万
+                              - generic [ref=e642]: 364万
+                        - button [ref=e644]:
+                          - img [ref=e648]
+                        - button [ref=e653]:
+                          - img [ref=e657]
+                - article [ref=e663] [cursor=pointer]:
+                  - generic [ref=e669]:
+                    - link [ref=e681]:
+                      - /url: /sugourawaza
+                    - generic [ref=e684]:
+                      - generic [ref=e686]:
+                        - generic [ref=e689]:
+                          - link [ref=e692]:
+                            - /url: /sugourawaza
+                            - generic [ref=e693]:
+                              - generic [ref=e695]: 知ってると得する豆知識
+                              - img [ref=e698]
+                          - generic [ref=e702]:
+                            - link [ref=e704]:
+                              - /url: /sugourawaza
+                              - generic [ref=e705]: "@sugourawaza"
+                            - generic [ref=e706]: ·
+                            - link [ref=e708]:
+                              - /url: /sugourawaza/status/2053253532015567260
+                              - time [ref=e709]: 15時間
+                        - generic [ref=e711]:
+                          - button [ref=e713]:
+                            - img [ref=e718]
+                          - button [ref=e724]:
+                            - img [ref=e728]
+                      - generic [ref=e732]: 鬱や自殺で辛い人へ ホームセンターでのバイトがおすすめ ・余裕のあるおばちゃんパートたちに可愛がってもらえる（大声で挨拶が出来る、メモを取る意識だけは必須） ・パート、アルバイトが主戦力がなので、社員にも丁寧に扱われる ・便利な道具の知識がつき生活力が上がる ・資格が取れる
+                      - group [ref=e735]:
+                        - button [ref=e737]:
+                          - generic [ref=e738]:
+                            - img [ref=e741]
+                            - generic [ref=e746]: "128"
+                        - button [ref=e748]:
+                          - generic [ref=e749]:
+                            - img [ref=e752]
+                            - generic [ref=e757]: "874"
+                        - button [ref=e759]:
+                          - generic [ref=e760]:
+                            - img [ref=e763]
+                            - generic [ref=e768]: 1.1万
+                        - link [ref=e770]:
+                          - /url: /sugourawaza/status/2053253532015567260/analytics
+                          - generic [ref=e771]:
+                            - img [ref=e774]
+                            - generic [ref=e779]: 245万
+                        - button [ref=e781]:
+                          - img [ref=e785]
+                        - button [ref=e790]:
+                          - img [ref=e794]
+                - article [ref=e800] [cursor=pointer]:
+                  - generic [ref=e806]:
+                    - link [ref=e818]:
+                      - /url: /oki_asset
+                    - generic [ref=e821]:
+                      - generic [ref=e823]:
+                        - generic [ref=e826]:
+                          - link [ref=e829]:
+                            - /url: /oki_asset
+                            - generic [ref=e830]:
+                              - generic [ref=e832]: おき
+                              - img [ref=e835]
+                          - generic [ref=e839]:
+                            - link [ref=e841]:
+                              - /url: /oki_asset
+                              - generic [ref=e842]: "@oki_asset"
+                            - generic [ref=e843]: ·
+                            - link [ref=e845]:
+                              - /url: /oki_asset/status/2053219211208695925
+                              - time [ref=e846]: 17時間
+                        - generic [ref=e848]:
+                          - button [ref=e850]:
+                            - img [ref=e855]
+                          - button [ref=e861]:
+                            - img [ref=e865]
+                      - generic [ref=e869]: サントリーで働く友達に「コーヒーがぶ飲みするくらいならルイボスティーにしな。カフェインで副腎疲れるから…」って言われて冗談半分で試して6ヶ月。ホントに夕方のダルさ減ったし夜の寝つき良くなった。それを友達に報告したら、なんと、、、
+                      - group [ref=e872]:
+                        - button [ref=e874]:
+                          - generic [ref=e875]:
+                            - img [ref=e878]
+                            - generic [ref=e883]: "180"
+                        - button [ref=e885]:
+                          - generic [ref=e886]:
+                            - img [ref=e889]
+                            - generic [ref=e894]: "340"
+                        - button [ref=e896]:
+                          - generic [ref=e897]:
+                            - img [ref=e900]
+                            - generic [ref=e903]:
+                              - generic [ref=e1680]: 5,409
+                              - generic [ref=e905]: 5,411
+                        - link [ref=e907]:
+                          - /url: /oki_asset/status/2053219211208695925/analytics
+                          - generic [ref=e908]:
+                            - img [ref=e911]
+                            - generic [ref=e916]: 230万
+                        - button [ref=e918]:
+                          - img [ref=e922]
+                        - button [ref=e927]:
+                          - img [ref=e931]
+                - article [ref=e937] [cursor=pointer]:
+                  - generic [ref=e943]:
+                    - link [ref=e955]:
+                      - /url: /gin_sneaker
+                    - generic [ref=e958]:
+                      - generic [ref=e960]:
+                        - generic [ref=e963]:
+                          - link [ref=e966]:
+                            - /url: /gin_sneaker
+                            - generic [ref=e967]:
+                              - generic [ref=e969]:
+                                - text: ぎん
+                                - img [ref=e970]
+                              - img [ref=e973]
+                          - generic [ref=e977]:
+                            - link [ref=e979]:
+                              - /url: /gin_sneaker
+                              - generic [ref=e980]: "@gin_sneaker"
+                            - generic [ref=e981]: ·
+                            - link [ref=e983]:
+                              - /url: /gin_sneaker/status/2053220966944412010
+                              - time [ref=e984]: 17時間
+                        - generic [ref=e986]:
+                          - button [ref=e988]:
+                            - img [ref=e993]
+                          - button [ref=e999]:
+                            - img [ref=e1003]
+                      - generic [ref=e1007]:
+                        - text: 大学3年の娘に伝えたい 尊いのに評価されてない職業⓴選
+                        - img [ref=e1008]
+                        - text: 14,13,2位はマジ給料上げて 20位 420万 地方公務員 19位 415万 郵便配達員 18位 408万 救急救命士 17位 402万 清掃員 16位 398万 理学療法士 15位 388万 スクールカウンセラー 14位 382万 保育士 まだまだ続く ↓ ↓
+                      - group [ref=e1011]:
+                        - button [ref=e1013]:
+                          - generic [ref=e1014]:
+                            - img [ref=e1017]
+                            - generic [ref=e1022]: "146"
+                        - button [ref=e1024]:
+                          - generic [ref=e1025]:
+                            - img [ref=e1028]
+                            - generic [ref=e1033]: "104"
+                        - button [ref=e1035]:
+                          - generic [ref=e1036]:
+                            - img [ref=e1039]
+                            - generic [ref=e1044]: 1,109
+                        - link [ref=e1046]:
+                          - /url: /gin_sneaker/status/2053220966944412010/analytics
+                          - generic [ref=e1047]:
+                            - img [ref=e1050]
+                            - generic [ref=e1055]: 173万
+                        - button [ref=e1057]:
+                          - img [ref=e1061]
+                        - button [ref=e1066]:
+                          - img [ref=e1070]
+                - generic [ref=e1076]:
+                  - generic [ref=e1077]:
+                    - heading [level=1] [ref=e1078]: プッシュ通知
+                    - generic [ref=e1079]: プッシュ通知をオンにして、Xで「いま」起きていることを確認しましょう
+                    - button [ref=e1081] [cursor=pointer]:
+                      - generic [ref=e1084]: 通知をオンにする
+                  - button [ref=e1086] [cursor=pointer]:
+                    - img [ref=e1088]
+                - article [ref=e1094] [cursor=pointer]:
+                  - generic [ref=e1100]:
+                    - link [ref=e1112]:
+                      - /url: /shun_ai_28
+                    - generic [ref=e1115]:
+                      - generic [ref=e1117]:
+                        - generic [ref=e1120]:
+                          - link [ref=e1123]:
+                            - /url: /shun_ai_28
+                            - generic [ref=e1124]:
+                              - generic [ref=e1126]: シュン
+                              - img [ref=e1129]
+                          - generic [ref=e1133]:
+                            - link [ref=e1135]:
+                              - /url: /shun_ai_28
+                              - generic [ref=e1136]: "@shun_ai_28"
+                            - generic [ref=e1137]: ·
+                            - link [ref=e1139]:
+                              - /url: /shun_ai_28/status/2053219530089107748
+                              - time [ref=e1140]: 17時間
+                        - generic [ref=e1142]:
+                          - button [ref=e1144]:
+                            - img [ref=e1149]
+                          - button [ref=e1155]:
+                            - img [ref=e1159]
+                      - generic [ref=e1163]: 【2026年最新】 入れるだけでChatGPTの 回答が激変する 魔法ワードTier表 修正回数が平均3回 →1回に減るデータも出ています。 Tier D（誰でも知ってる基本） ・「あなたは○○の専門家です」 ・「ステップバイステップで考えて」 ・「箇条書きで」「表形式で」 Tier C（中級者がよく使う）↓↓
+                      - group [ref=e1166]:
+                        - button [ref=e1168]:
+                          - generic [ref=e1169]:
+                            - img [ref=e1172]
+                            - generic [ref=e1177]: "4"
+                        - button [ref=e1179]:
+                          - generic [ref=e1180]:
+                            - img [ref=e1183]
+                            - generic [ref=e1188]: "45"
+                        - button [ref=e1190]:
+                          - generic [ref=e1191]:
+                            - img [ref=e1194]
+                            - generic [ref=e1199]: "353"
+                        - link [ref=e1201]:
+                          - /url: /shun_ai_28/status/2053219530089107748/analytics
+                          - generic [ref=e1202]:
+                            - img [ref=e1205]
+                            - generic [ref=e1210]: 10万
+                        - button [ref=e1212]:
+                          - img [ref=e1216]
+                        - button [ref=e1221]:
+                          - img [ref=e1225]
+                - article [ref=e1231] [cursor=pointer]:
+                  - generic [ref=e1237]:
+                    - link [ref=e1249]:
+                      - /url: /abubu_newnanka
+                    - generic [ref=e1252]:
+                      - generic [ref=e1254]:
+                        - generic [ref=e1257]:
+                          - link [ref=e1260]:
+                            - /url: /abubu_newnanka
+                            - generic [ref=e1263]: あぶぶ＠健全
+                          - generic [ref=e1265]:
+                            - link [ref=e1267]:
+                              - /url: /abubu_newnanka
+                              - generic [ref=e1268]: "@abubu_newnanka"
+                            - generic [ref=e1269]: ·
+                            - link [ref=e1271]:
+                              - /url: /abubu_newnanka/status/2053338458157113377
+                              - time [ref=e1272]: 9時間
+                        - generic [ref=e1274]:
+                          - button [ref=e1276]:
+                            - img [ref=e1281]
+                          - button [ref=e1287]:
+                            - img [ref=e1291]
+                      - generic [ref=e1295]: この前万引き犯を捕まえたんですがソイツが「私に情けをかけるつもりなら三日待って下さい。妹の結婚式があるのです。代わりに無二の友人を身代わりに置いて行きます」とか言い出すので、騙されたフリをして「これだから犯罪者は信用できない」とSNSでバズるのも気味が良いと思い逃がしてやりました。
+                      - group [ref=e1298]:
+                        - button [ref=e1300]:
+                          - generic [ref=e1301]:
+                            - img [ref=e1304]
+                            - generic [ref=e1309]: "157"
+                        - button [ref=e1311]:
+                          - generic [ref=e1312]:
+                            - img [ref=e1315]
+                            - generic [ref=e1320]: "739"
+                        - button [ref=e1322]:
+                          - generic [ref=e1323]:
+                            - img [ref=e1326]
+                            - generic [ref=e1329]:
+                              - generic [ref=e1682]: 9,948
+                              - generic [ref=e1331]: 9,949
+                        - link [ref=e1333]:
+                          - /url: /abubu_newnanka/status/2053338458157113377/analytics
+                          - generic [ref=e1334]:
+                            - img [ref=e1337]
+                            - generic [ref=e1342]: 146万
+                        - button [ref=e1344]:
+                          - img [ref=e1348]
+                        - button [ref=e1353]:
+                          - img [ref=e1357]
+                - article [ref=e1363] [cursor=pointer]:
+                  - generic [ref=e1369]:
+                    - link [ref=e1381]:
+                      - /url: /55_hatchan
+                    - generic [ref=e1384]:
+                      - generic [ref=e1386]:
+                        - generic [ref=e1389]:
+                          - link [ref=e1392]:
+                            - /url: /55_hatchan
+                            - generic [ref=e1393]:
+                              - generic [ref=e1395]: はっちゃん
+                              - img [ref=e1398]
+                          - generic [ref=e1402]:
+                            - link [ref=e1404]:
+                              - /url: /55_hatchan
+                              - generic [ref=e1405]: "@55_hatchan"
+                            - generic [ref=e1406]: ·
+                            - link [ref=e1408]:
+                              - /url: /55_hatchan/status/2053384555525242990
+                              - time [ref=e1409]: 6時間
+                        - generic [ref=e1411]:
+                          - button [ref=e1413]:
+                            - img [ref=e1418]
+                          - button [ref=e1424]:
+                            - img [ref=e1428]
+                      - generic [ref=e1432]: 58歳。 人間関係はこうなる。 ・連絡取る人は減る ・会う人はいつも同じ ・グループは自然消滅 ・何年も音信不通だらけ ・ひとりでの活動が増える でも ↓
+                      - group [ref=e1435]:
+                        - button [ref=e1437]:
+                          - generic [ref=e1438]:
+                            - img [ref=e1441]
+                            - generic [ref=e1446]: "19"
+                        - button [ref=e1448]:
+                          - generic [ref=e1449]:
+                            - img [ref=e1452]
+                            - generic [ref=e1457]: "35"
+                        - button [ref=e1459]:
+                          - generic [ref=e1460]:
+                            - img [ref=e1463]
+                            - generic [ref=e1468]: "927"
+                        - link [ref=e1470]:
+                          - /url: /55_hatchan/status/2053384555525242990/analytics
+                          - generic [ref=e1471]:
+                            - img [ref=e1474]
+                            - generic [ref=e1479]: 65万
+                        - button [ref=e1481]:
+                          - img [ref=e1485]
+                        - button [ref=e1490]:
+                          - img [ref=e1494]
+                - article [ref=e1500] [cursor=pointer]:
+                  - generic [ref=e1506]:
+                    - link [ref=e1518]:
+                      - /url: /yuna_money
+                    - generic [ref=e1521]:
+                      - generic [ref=e1523]:
+                        - generic [ref=e1526]:
+                          - link [ref=e1529]:
+                            - /url: /yuna_money
+                            - generic [ref=e1530]:
+                              - generic [ref=e1532]: ゆな
+                              - img [ref=e1535]
+                          - generic [ref=e1539]:
+                            - link [ref=e1541]:
+                              - /url: /yuna_money
+                              - generic [ref=e1542]: "@yuna_money"
+                            - generic [ref=e1543]: ·
+                            - link [ref=e1545]:
+                              - /url: /yuna_money/status/2053220326046314618
+                              - time [ref=e1546]: 17時間
+                        - generic [ref=e1548]:
+                          - button [ref=e1550]:
+                            - img [ref=e1555]
+                          - button [ref=e1561]:
+                            - img [ref=e1565]
+                      - generic [ref=e1568]:
+                        - generic [ref=e1569]: 【2026年最新】 30代から人生逆転しやすい職業TOP20 20位：美容部員 420万円 19位：医療事務 430万円 18位：Webデザイナー 450万円 17位：経理 480万円 16位：人材業界（営業） 500万円 15位：宅建士 550万円 14位：薬剤師 600万円
+                        - button [ref=e1570]: さらに表示
+                      - group [ref=e1573]:
+                        - button [ref=e1575]:
+                          - generic [ref=e1576]:
+                            - img [ref=e1579]
+                            - generic [ref=e1584]: "11"
+                        - button [ref=e1586]:
+                          - generic [ref=e1587]:
+                            - img [ref=e1590]
+                            - generic [ref=e1595]: "29"
+                        - button [ref=e1597]:
+                          - generic [ref=e1598]:
+                            - img [ref=e1601]
+                            - generic [ref=e1606]: "414"
+                        - link [ref=e1608]:
+                          - /url: /yuna_money/status/2053220326046314618/analytics
+                          - generic [ref=e1609]:
+                            - img [ref=e1612]
+                            - generic [ref=e1617]: 70万
+                        - button [ref=e1619]:
+                          - img [ref=e1623]
+                        - button [ref=e1628]:
+                          - img [ref=e1632]

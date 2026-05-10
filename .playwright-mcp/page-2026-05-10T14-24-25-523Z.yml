@@ -1,0 +1,717 @@
+- generic [ref=e2]:
+  - generic:
+    - generic:
+      - heading "キーボードショートカットを表示するには、はてなマークを押してください。 キーボードショートカットを表示" [level=2] [ref=e3]:
+        - generic [ref=e4]: キーボードショートカットを表示するには、はてなマークを押してください。
+        - link "キーボードショートカットを表示" [ref=e5] [cursor=pointer]:
+          - /url: /i/keyboard_shortcuts
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - dialog:
+                - group [active] [ref=e6]:
+                  - dialog "予約設定" [ref=e1653]:
+                    - generic [ref=e1654]:
+                      - generic [ref=e1656]:
+                        - generic [ref=e1662]:
+                          - button "閉じる" [ref=e1664] [cursor=pointer]:
+                            - img [ref=e1666]
+                          - heading "予約設定" [level=2] [ref=e1671]
+                          - button "確認する" [ref=e1674] [cursor=pointer]:
+                            - generic [ref=e1677]: 確認する
+                        - generic [ref=e1678]:
+                          - generic [ref=e1680]:
+                            - img [ref=e1681]
+                            - text: 2026年5月11日(月)の午前7:24に送信されます
+                          - generic [ref=e1684]:
+                            - generic [ref=e1685]: 日付
+                            - group "日付" [ref=e1687]:
+                              - generic [ref=e1688]:
+                                - generic: 月
+                                - combobox "月" [ref=e1689] [cursor=pointer]:
+                                  - option [disabled]
+                                  - option "1月"
+                                  - option "2月"
+                                  - option "3月"
+                                  - option "4月"
+                                  - option "5月" [selected]
+                                  - option "6月"
+                                  - option "7月"
+                                  - option "8月"
+                                  - option "9月"
+                                  - option "10月"
+                                  - option "11月"
+                                  - option "12月"
+                                - img
+                              - generic [ref=e1690]:
+                                - generic: 日
+                                - combobox "日" [ref=e1691] [cursor=pointer]:
+                                  - option [disabled]
+                                  - option "1"
+                                  - option "2"
+                                  - option "3"
+                                  - option "4"
+                                  - option "5"
+                                  - option "6"
+                                  - option "7"
+                                  - option "8"
+                                  - option "9"
+                                  - option "10"
+                                  - option "11" [selected]
+                                  - option "12"
+                                  - option "13"
+                                  - option "14"
+                                  - option "15"
+                                  - option "16"
+                                  - option "17"
+                                  - option "18"
+                                  - option "19"
+                                  - option "20"
+                                  - option "21"
+                                  - option "22"
+                                  - option "23"
+                                  - option "24"
+                                  - option "25"
+                                  - option "26"
+                                  - option "27"
+                                  - option "28"
+                                  - option "29"
+                                  - option "30"
+                                  - option "31"
+                                - img
+                              - generic [ref=e1692]:
+                                - generic: 年
+                                - combobox "年" [ref=e1693] [cursor=pointer]:
+                                  - option [disabled]
+                                  - option "2028"
+                                  - option "2027"
+                                  - option "2026" [selected]
+                                - img
+                              - generic [ref=e1694]:
+                                - button "Calendar" [ref=e1695] [cursor=pointer]:
+                                  - img [ref=e1697]
+                                - textbox [ref=e1700]: 2026-05-11
+                          - group "時刻" [ref=e1703]:
+                            - generic [ref=e1704]: 時刻
+                            - generic [ref=e1705]:
+                              - generic [ref=e1706]:
+                                - generic: 時
+                                - combobox "時" [ref=e1707] [cursor=pointer]:
+                                  - option [disabled]
+                                  - option "0"
+                                  - option "1"
+                                  - option "2"
+                                  - option "3"
+                                  - option "4"
+                                  - option "5"
+                                  - option "6"
+                                  - option "7" [selected]
+                                  - option "8"
+                                  - option "9"
+                                  - option "10"
+                                  - option "11"
+                                  - option "12"
+                                  - option "13"
+                                  - option "14"
+                                  - option "15"
+                                  - option "16"
+                                  - option "17"
+                                  - option "18"
+                                  - option "19"
+                                  - option "20"
+                                  - option "21"
+                                  - option "22"
+                                  - option "23"
+                                - img
+                              - generic [ref=e1708]:
+                                - generic: 分
+                                - combobox "分" [ref=e1709] [cursor=pointer]:
+                                  - option [disabled]
+                                  - option "00"
+                                  - option "01"
+                                  - option "02"
+                                  - option "03"
+                                  - option "04"
+                                  - option "05"
+                                  - option "06"
+                                  - option "07"
+                                  - option "08"
+                                  - option "09"
+                                  - option "10"
+                                  - option "11"
+                                  - option "12"
+                                  - option "13"
+                                  - option "14"
+                                  - option "15"
+                                  - option "16"
+                                  - option "17"
+                                  - option "18"
+                                  - option "19"
+                                  - option "20"
+                                  - option "21"
+                                  - option "22"
+                                  - option "23"
+                                  - option "24" [selected]
+                                  - option "25"
+                                  - option "26"
+                                  - option "27"
+                                  - option "28"
+                                  - option "29"
+                                  - option "30"
+                                  - option "31"
+                                  - option "32"
+                                  - option "33"
+                                  - option "34"
+                                  - option "35"
+                                  - option "36"
+                                  - option "37"
+                                  - option "38"
+                                  - option "39"
+                                  - option "40"
+                                  - option "41"
+                                  - option "42"
+                                  - option "43"
+                                  - option "44"
+                                  - option "45"
+                                  - option "46"
+                                  - option "47"
+                                  - option "48"
+                                  - option "49"
+                                  - option "50"
+                                  - option "51"
+                                  - option "52"
+                                  - option "53"
+                                  - option "54"
+                                  - option "55"
+                                  - option "56"
+                                  - option "57"
+                                  - option "58"
+                                  - option "59"
+                                - img
+                          - generic [ref=e1710]:
+                            - generic [ref=e1711]: タイムゾーン
+                            - generic [ref=e1712]: 日本標準時
+                      - button "予約投稿ポスト" [ref=e1716] [cursor=pointer]:
+                        - generic [ref=e1719]: 予約投稿ポスト
+      - generic [ref=e161]:
+        - button [ref=e162] [cursor=pointer]
+        - button [ref=e164] [cursor=pointer]
+        - banner [ref=e166]:
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - heading [level=1] [ref=e171] [cursor=pointer]:
+                - link [ref=e172]:
+                  - /url: /home
+                  - img [ref=e174]
+              - navigation [ref=e178]:
+                - link [ref=e179] [cursor=pointer]:
+                  - /url: /home
+                  - img [ref=e182]
+                - link [ref=e185] [cursor=pointer]:
+                  - /url: /explore
+                  - img [ref=e188]
+                - link [ref=e191] [cursor=pointer]:
+                  - /url: /notifications
+                  - generic [ref=e193]:
+                    - img [ref=e194]
+                    - generic [ref=e198]: "2"
+                - link [ref=e199] [cursor=pointer]:
+                  - /url: /i/connect_people
+                  - img [ref=e202]
+                - link [ref=e205] [cursor=pointer]:
+                  - /url: /i/chat
+                  - img [ref=e208]
+                - link [ref=e211] [cursor=pointer]:
+                  - /url: /i/grok
+                  - img [ref=e214]
+                - link [ref=e218] [cursor=pointer]:
+                  - /url: /i/bookmarks
+                  - img [ref=e221]
+                - link [ref=e224] [cursor=pointer]:
+                  - /url: /i/jf/creators/studio
+                  - img [ref=e227]
+                - link [ref=e231] [cursor=pointer]:
+                  - /url: /i/premium_sign_up
+                  - img [ref=e234]
+                - link [ref=e237] [cursor=pointer]:
+                  - /url: /kyosuke_kakei
+                  - img [ref=e240]
+                - button [ref=e243] [cursor=pointer]:
+                  - img [ref=e246]
+              - link [ref=e250] [cursor=pointer]:
+                - /url: /compose/post
+                - img [ref=e252]
+            - button [ref=e258] [cursor=pointer]:
+              - generic [ref=e266]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+        - main [ref=e269]:
+          - generic [ref=e274]:
+            - generic [ref=e275]:
+              - navigation [ref=e280]:
+                - generic [ref=e281]:
+                  - generic:
+                    - button [disabled]:
+                      - generic:
+                        - img
+                  - tablist [ref=e283]:
+                    - tab [selected] [ref=e284] [cursor=pointer]:
+                      - generic [ref=e287]: おすすめ
+                    - tab [ref=e289] [cursor=pointer]:
+                      - generic [ref=e292]: フォロー中
+                  - generic:
+                    - button [disabled]:
+                      - generic:
+                        - img
+              - generic:
+                - generic:
+                  - status:
+                    - button:
+                      - generic:
+                        - img
+                        - generic: 新しいポストを表示
+            - generic [ref=e299]:
+              - link [ref=e308] [cursor=pointer]:
+                - /url: /kyosuke_kakei
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+              - generic [ref=e311]:
+                - generic [ref=e329]:
+                  - generic [ref=e331]: いまどうしてる？
+                  - textbox [ref=e333]
+                - generic [ref=e340]:
+                  - navigation [ref=e341]:
+                    - generic [ref=e342]:
+                      - generic:
+                        - button [disabled]:
+                          - generic:
+                            - img
+                      - tablist [ref=e344]:
+                        - generic [ref=e347]:
+                          - button [ref=e348] [cursor=pointer]:
+                            - img [ref=e350]
+                          - button [ref=e354]
+                        - button [ref=e357] [cursor=pointer]:
+                          - img [ref=e359]
+                        - button [ref=e365] [cursor=pointer]:
+                          - img [ref=e367]
+                        - button [ref=e372] [cursor=pointer]:
+                          - img [ref=e374]
+                        - button [ref=e380] [cursor=pointer]:
+                          - img [ref=e382]
+                        - button [ref=e388] [cursor=pointer]:
+                          - img [ref=e390]
+                        - button [disabled] [ref=e395]:
+                          - img [ref=e397]
+                        - button [ref=e402] [cursor=pointer]:
+                          - img [ref=e404]
+                      - generic:
+                        - button [disabled]:
+                          - generic:
+                            - img
+                  - button [disabled] [ref=e409]:
+                    - generic [ref=e412]: ポストする
+            - region [ref=e415]:
+              - heading [level=1] [ref=e416]: ホームタイムライン
+              - generic [ref=e418]:
+                - article [ref=e422] [cursor=pointer]:
+                  - generic [ref=e428]:
+                    - link [ref=e440]:
+                      - /url: /elonmusk
+                    - generic [ref=e443]:
+                      - generic [ref=e445]:
+                        - generic [ref=e448]:
+                          - link [ref=e451]:
+                            - /url: /elonmusk
+                            - generic [ref=e452]:
+                              - generic [ref=e454]: Elon Musk
+                              - generic [ref=e456]:
+                                - img [ref=e457]
+                                - link [ref=e460]
+                          - generic [ref=e468]:
+                            - link [ref=e470]:
+                              - /url: /elonmusk
+                              - generic [ref=e471]: "@elonmusk"
+                            - generic [ref=e472]: ·
+                            - link [ref=e474]:
+                              - /url: /elonmusk/status/2053230433299771580
+                              - time [ref=e475]: 16時間
+                        - generic [ref=e477]:
+                          - button [ref=e479]:
+                            - img [ref=e484]
+                          - button [ref=e490]:
+                            - img [ref=e494]
+                      - button [ref=e523]:
+                        - img [ref=e524]
+                      - group [ref=e530]:
+                        - button [ref=e532]:
+                          - generic [ref=e533]:
+                            - img [ref=e536]
+                            - generic [ref=e541]: 5,128
+                        - button [ref=e543]:
+                          - generic [ref=e544]:
+                            - img [ref=e547]
+                            - generic [ref=e552]: 1.3万
+                        - button [ref=e554]:
+                          - generic [ref=e555]:
+                            - img [ref=e558]
+                            - generic [ref=e563]: 9.2万
+                        - link [ref=e565]:
+                          - /url: /elonmusk/status/2053230433299771580/analytics
+                          - generic [ref=e566]:
+                            - img [ref=e569]
+                            - generic [ref=e574]: 3,415万
+                        - button [ref=e576]:
+                          - img [ref=e580]
+                        - button [ref=e585]:
+                          - img [ref=e589]
+                - article [ref=e595] [cursor=pointer]:
+                  - generic [ref=e601]:
+                    - link [ref=e613]:
+                      - /url: /yagimasumi1974
+                    - generic [ref=e616]:
+                      - generic [ref=e618]:
+                        - generic [ref=e621]:
+                          - link [ref=e624]:
+                            - /url: /yagimasumi1974
+                            - generic [ref=e627]: サバンナ八木
+                          - generic [ref=e629]:
+                            - link [ref=e631]:
+                              - /url: /yagimasumi1974
+                              - generic [ref=e632]: "@yagimasumi1974"
+                            - generic [ref=e633]: ·
+                            - link [ref=e635]:
+                              - /url: /yagimasumi1974/status/2053460514009964715
+                              - time [ref=e636]: 1時間
+                        - generic [ref=e638]:
+                          - button [ref=e640]:
+                            - img [ref=e645]
+                          - button [ref=e651]:
+                            - img [ref=e655]
+                      - generic [ref=e659]: 今回のことで、世間の皆様や後輩たち、多くの方々にご心配や不快な思いをおかけして申し訳ありません。 全てコンビであるサバンナの責任です 中山功太とも電話で話しをさせてもらいました 功太と茂雄もまた話せてないみたいなので、双方の話しを聞き僕が書きます
+                      - group [ref=e662]:
+                        - button [ref=e664]:
+                          - generic [ref=e665]:
+                            - img [ref=e668]
+                            - generic [ref=e673]: "875"
+                        - button [ref=e675]:
+                          - generic [ref=e676]:
+                            - img [ref=e679]
+                            - generic [ref=e682]:
+                              - generic [ref=e1733]: 1,649
+                              - generic [ref=e684]: 1,651
+                        - button [ref=e686]:
+                          - generic [ref=e687]:
+                            - img [ref=e690]
+                            - generic [ref=e695]: 2万
+                        - link [ref=e697]:
+                          - /url: /yagimasumi1974/status/2053460514009964715/analytics
+                          - generic [ref=e698]:
+                            - img [ref=e701]
+                            - generic [ref=e704]:
+                              - generic [ref=e1735]: 357万
+                              - generic [ref=e706]: 361万
+                        - button [ref=e708]:
+                          - img [ref=e712]
+                        - button [ref=e717]:
+                          - img [ref=e721]
+                - article [ref=e727] [cursor=pointer]:
+                  - generic [ref=e733]:
+                    - link [ref=e745]:
+                      - /url: /kusakabe1986
+                    - generic [ref=e748]:
+                      - generic [ref=e750]:
+                        - generic [ref=e753]:
+                          - link [ref=e756]:
+                            - /url: /kusakabe1986
+                            - generic [ref=e759]: 日
+                          - generic [ref=e761]:
+                            - link [ref=e763]:
+                              - /url: /kusakabe1986
+                              - generic [ref=e764]: "@kusakabe1986"
+                            - generic [ref=e765]: ·
+                            - link [ref=e767]:
+                              - /url: /kusakabe1986/status/2053141931237187938
+                              - time [ref=e768]: 22時間
+                        - generic [ref=e770]:
+                          - button [ref=e772]:
+                            - img [ref=e777]
+                          - button [ref=e783]:
+                            - img [ref=e787]
+                      - generic [ref=e791]: サイゼリヤのドリンクバーでボタン押しっぱなしにしてるのにまったくコップに水分を入れられていない子どもがいたから、狙いを外してるよ、と視線でメッセージを送って位置を直してあげたら、後でその子の父親が「息子は原液だけを入れて濃いジュースを作ろうとしていたんだ」とクレームを入れてきて、
+                      - group [ref=e794]:
+                        - button [ref=e796]:
+                          - generic [ref=e797]:
+                            - img [ref=e800]
+                            - generic [ref=e805]: "1"
+                        - button [ref=e807]:
+                          - generic [ref=e808]:
+                            - img [ref=e811]
+                            - generic [ref=e816]: 1,041
+                        - button [ref=e818]:
+                          - generic [ref=e819]:
+                            - img [ref=e822]
+                            - generic [ref=e827]: 4.1万
+                        - link [ref=e829]:
+                          - /url: /kusakabe1986/status/2053141931237187938/analytics
+                          - generic [ref=e830]:
+                            - img [ref=e833]
+                            - generic [ref=e838]: 1,048万
+                        - button [ref=e840]:
+                          - img [ref=e844]
+                        - button [ref=e849]:
+                          - img [ref=e853]
+                - article [ref=e859] [cursor=pointer]:
+                  - generic [ref=e865]:
+                    - link [ref=e877]:
+                      - /url: /panpannsu
+                    - generic [ref=e880]:
+                      - generic [ref=e882]:
+                        - generic [ref=e885]:
+                          - link [ref=e888]:
+                            - /url: /panpannsu
+                            - generic [ref=e889]:
+                              - generic [ref=e891]: 話題のツイートくん
+                              - img [ref=e894]
+                          - generic [ref=e898]:
+                            - link [ref=e900]:
+                              - /url: /panpannsu
+                              - generic [ref=e901]: "@panpannsu"
+                            - generic [ref=e902]: ·
+                            - link [ref=e904]:
+                              - /url: /panpannsu/status/2053300727842504887
+                              - time [ref=e905]: 11時間
+                        - generic [ref=e907]:
+                          - button [ref=e909]:
+                            - img [ref=e914]
+                          - button [ref=e920]:
+                            - img [ref=e924]
+                      - generic [ref=e928]: あまりに天才的すぎるルート確保の動画が話題に こういう人（軽）のことを運転上手いって言うんだろうな
+                      - button [ref=e955]:
+                        - img [ref=e956]
+                      - group [ref=e962]:
+                        - button [ref=e964]:
+                          - generic [ref=e965]:
+                            - img [ref=e968]
+                            - generic [ref=e973]: "92"
+                        - button [ref=e975]:
+                          - generic [ref=e976]:
+                            - img [ref=e979]
+                            - generic [ref=e984]: "150"
+                        - button [ref=e986]:
+                          - generic [ref=e987]:
+                            - img [ref=e990]
+                            - generic [ref=e995]: 3,465
+                        - link [ref=e997]:
+                          - /url: /panpannsu/status/2053300727842504887/analytics
+                          - generic [ref=e998]:
+                            - img [ref=e1001]
+                            - generic [ref=e1006]: 189万
+                        - button [ref=e1008]:
+                          - img [ref=e1012]
+                        - button [ref=e1017]:
+                          - img [ref=e1021]
+                - article [ref=e1027] [cursor=pointer]:
+                  - generic [ref=e1033]:
+                    - link [ref=e1045]:
+                      - /url: /Japan_lol_w
+                    - generic [ref=e1048]:
+                      - generic [ref=e1050]:
+                        - generic [ref=e1053]:
+                          - link [ref=e1056]:
+                            - /url: /Japan_lol_w
+                            - generic [ref=e1057]:
+                              - img [ref=e1060]
+                              - img [ref=e1063]
+                          - generic [ref=e1067]:
+                            - link [ref=e1069]:
+                              - /url: /Japan_lol_w
+                              - generic [ref=e1070]: "@Japan_lol_w"
+                            - generic [ref=e1071]: ·
+                            - link [ref=e1073]:
+                              - /url: /Japan_lol_w/status/2053261866454172136
+                              - time [ref=e1074]: 14時間
+                        - generic [ref=e1076]:
+                          - button [ref=e1078]:
+                            - img [ref=e1083]
+                          - button [ref=e1089]:
+                            - img [ref=e1093]
+                      - generic [ref=e1097]: 今日バイト先で、333円の買い物したやつが、千円札を出してきたから、ﾚｼﾞに打ち込む前に、つり銭777円をソッコー渡してやったら、俺の暗算の能力とそのスピードに、すげえビックリしてたみたい。それくらい普通だろがwwwwwwwww
+                      - group [ref=e1100]:
+                        - button [ref=e1102]:
+                          - generic [ref=e1103]:
+                            - img [ref=e1106]
+                            - generic [ref=e1111]: 1,041
+                        - button [ref=e1113]:
+                          - generic [ref=e1114]:
+                            - img [ref=e1117]
+                            - generic [ref=e1122]: "355"
+                        - button [ref=e1124]:
+                          - generic [ref=e1125]:
+                            - img [ref=e1128]
+                            - generic [ref=e1131]:
+                              - generic [ref=e1737]: 4,503
+                              - generic [ref=e1133]: 4,504
+                        - link [ref=e1135]:
+                          - /url: /Japan_lol_w/status/2053261866454172136/analytics
+                          - generic [ref=e1136]:
+                            - img [ref=e1139]
+                            - generic [ref=e1144]: 374万
+                        - button [ref=e1146]:
+                          - img [ref=e1150]
+                        - button [ref=e1155]:
+                          - img [ref=e1159]
+                - article [ref=e1165] [cursor=pointer]:
+                  - generic [ref=e1171]:
+                    - link [ref=e1183]:
+                      - /url: /yaesutokyobashi
+                    - generic [ref=e1186]:
+                      - generic [ref=e1188]:
+                        - generic [ref=e1191]:
+                          - link [ref=e1194]:
+                            - /url: /yaesutokyobashi
+                            - generic [ref=e1195]:
+                              - generic [ref=e1197]: ユージ
+                              - img [ref=e1200]
+                          - generic [ref=e1204]:
+                            - link [ref=e1206]:
+                              - /url: /yaesutokyobashi
+                              - generic [ref=e1207]: "@yaesutokyobashi"
+                            - generic [ref=e1208]: ·
+                            - link [ref=e1210]:
+                              - /url: /yaesutokyobashi/status/2053225769946718411
+                              - time [ref=e1211]: 16時間
+                        - generic [ref=e1213]:
+                          - button [ref=e1215]:
+                            - img [ref=e1220]
+                          - button [ref=e1226]:
+                            - img [ref=e1230]
+                      - generic [ref=e1234]: イチローによる結果が出ない時の考え方。前に進むためにはこれしかないんだよな
+                      - button [ref=e1261]:
+                        - img [ref=e1262]
+                      - group [ref=e1268]:
+                        - button [ref=e1270]:
+                          - generic [ref=e1271]:
+                            - img [ref=e1274]
+                            - generic [ref=e1279]: "14"
+                        - button [ref=e1281]:
+                          - generic [ref=e1282]:
+                            - img [ref=e1285]
+                            - generic [ref=e1290]: "103"
+                        - button [ref=e1292]:
+                          - generic [ref=e1293]:
+                            - img [ref=e1296]
+                            - generic [ref=e1301]: "984"
+                        - link [ref=e1303]:
+                          - /url: /yaesutokyobashi/status/2053225769946718411/analytics
+                          - generic [ref=e1304]:
+                            - img [ref=e1307]
+                            - generic [ref=e1312]: 14万
+                        - button [ref=e1314]:
+                          - img [ref=e1318]
+                        - button [ref=e1323]:
+                          - img [ref=e1327]
+                - article [ref=e1333] [cursor=pointer]:
+                  - generic [ref=e1339]:
+                    - link [ref=e1351]:
+                      - /url: /suu_kan
+                    - generic [ref=e1354]:
+                      - generic [ref=e1356]:
+                        - generic [ref=e1359]:
+                          - link [ref=e1362]:
+                            - /url: /suu_kan
+                            - generic [ref=e1365]: すぅ@妊糖ちゃん
+                          - generic [ref=e1367]:
+                            - link [ref=e1369]:
+                              - /url: /suu_kan
+                              - generic [ref=e1370]: "@suu_kan"
+                            - generic [ref=e1371]: ·
+                            - link [ref=e1373]:
+                              - /url: /suu_kan/status/2053392528976793912
+                              - time [ref=e1374]: 5時間
+                        - generic [ref=e1376]:
+                          - button [ref=e1378]:
+                            - img [ref=e1383]
+                          - button [ref=e1389]:
+                            - img [ref=e1393]
+                      - generic [ref=e1397]: 4歳、この夕飯食べ切るの1時間半はかかるんだけど多すぎるんだろうか‥ 女児の適正量が分からん
+                      - link [ref=e1405]:
+                        - /url: /suu_kan/status/2053392528976793912/photo/1
+                        - img [ref=e1411]
+                      - group [ref=e1414]:
+                        - button [ref=e1416]:
+                          - generic [ref=e1417]:
+                            - img [ref=e1420]
+                            - generic [ref=e1425]: 1,041
+                        - button [ref=e1427]:
+                          - generic [ref=e1428]:
+                            - img [ref=e1431]
+                            - generic [ref=e1436]: 1,757
+                        - button [ref=e1438]:
+                          - generic [ref=e1439]:
+                            - img [ref=e1442]
+                            - generic [ref=e1447]: 1.8万
+                        - link [ref=e1449]:
+                          - /url: /suu_kan/status/2053392528976793912/analytics
+                          - generic [ref=e1450]:
+                            - img [ref=e1453]
+                            - generic [ref=e1458]: 726万
+                        - button [ref=e1460]:
+                          - img [ref=e1464]
+                        - button [ref=e1469]:
+                          - img [ref=e1473]
+                - article [ref=e1479] [cursor=pointer]:
+                  - generic [ref=e1485]:
+                    - link [ref=e1497]:
+                      - /url: /h_a85_xx
+                    - generic [ref=e1500]:
+                      - generic [ref=e1502]:
+                        - generic [ref=e1505]:
+                          - link [ref=e1508]:
+                            - /url: /h_a85_xx
+                            - generic [ref=e1511]: ひめじ
+                          - generic [ref=e1513]:
+                            - link [ref=e1515]:
+                              - /url: /h_a85_xx
+                              - generic [ref=e1516]: "@h_a85_xx"
+                            - generic [ref=e1517]: ·
+                            - link [ref=e1519]:
+                              - /url: /h_a85_xx/status/2053395269853778288
+                              - time [ref=e1520]: 5時間
+                        - generic [ref=e1522]:
+                          - button [ref=e1524]:
+                            - img [ref=e1529]
+                          - button [ref=e1535]:
+                            - img [ref=e1539]
+                      - generic [ref=e1543]: こちら映像です。 川崎駅では東海道線車内でスプレーが噴射されたとのことで、消防・警察による取り調べが行われています。
+                      - button [ref=e1570]:
+                        - img [ref=e1571]
+                      - group [ref=e1577]:
+                        - button [ref=e1579]:
+                          - generic [ref=e1580]:
+                            - img [ref=e1583]
+                            - generic [ref=e1588]: "933"
+                        - button [ref=e1590]:
+                          - generic [ref=e1591]:
+                            - img [ref=e1594]
+                            - generic [ref=e1599]: 8,090
+                        - button [ref=e1601]:
+                          - generic [ref=e1602]:
+                            - img [ref=e1605]
+                            - generic [ref=e1610]: 2.6万
+                        - link [ref=e1612]:
+                          - /url: /h_a85_xx/status/2053395269853778288/analytics
+                          - generic [ref=e1613]:
+                            - img [ref=e1616]
+                            - generic [ref=e1621]: 755万
+                        - button [ref=e1623]:
+                          - img [ref=e1627]
+                        - button [ref=e1632]:
+                          - img [ref=e1636]

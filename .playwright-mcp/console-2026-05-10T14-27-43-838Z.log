@@ -1,0 +1,24 @@
+[     876ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://x.com/compose/post:0
+[     916ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://ads-api.x.com/12/measurement/dcm_local_id:0
+[   16643ms] TypeError: Cannot read properties of undefined (reading 'getIn')
+    at t.exports (https://abs.twimg.com/responsive-web/client-web/shared~bundle.Routes~loader.HWCard~bundle.LiveEvent~bundle.Grok~bundle.Ocf~ondemand.Verified~bundle.UserProfi.c39605ba.js:15:692)
+    at https://abs.twimg.com/responsive-web/client-web/shared~bundle.Routes~loader.HWCard~bundle.LiveEvent~bundle.Grok~bundle.Ocf~ondemand.Verified~bundle.UserProfi.c39605ba.js:3:7391
+    at Object.ej (https://abs.twimg.com/responsive-web/client-web/vendor.64e953aa.js:69:8007)
+    at eW (https://abs.twimg.com/responsive-web/client-web/vendor.64e953aa.js:69:8161)
+    at https://abs.twimg.com/responsive-web/client-web/vendor.64e953aa.js:69:26473
+    at ne (https://abs.twimg.com/responsive-web/client-web/vendor.64e953aa.js:69:26572)
+    at nt (https://abs.twimg.com/responsive-web/client-web/vendor.64e953aa.js:69:26986)
+    at https://abs.twimg.com/responsive-web/client-web/vendor.64e953aa.js:69:32442
+    at uA (https://abs.twimg.com/responsive-web/client-web/vendor.64e953aa.js:72:26533)
+    at eN (https://abs.twimg.com/responsive-web/client-web/vendor.64e953aa.js:69:7151)
+[   16701ms] Error: invariant(...): Second argument must be a string.
+    at e (https://abs.twimg.com/responsive-web/client-web/shared~bundle.Routes~loader.HWCard~bundle.LiveEvent~bundle.Grok~bundle.Ocf~ondemand.Verified~bundle.UserProfi.c39605ba.js:19:14081)
+    at t.exports (https://abs.twimg.com/responsive-web/client-web/shared~bundle.Routes~loader.HWCard~bundle.LiveEvent~bundle.Grok~bundle.Ocf~ondemand.Verified~bundle.UserProfi.c39605ba.js:19:14248)
+    at c (https://abs.twimg.com/responsive-web/client-web/shared~bundle.Routes~loader.HWCard~bundle.LiveEvent~bundle.Grok~bundle.Ocf~ondemand.Verified~bundle.UserProfi.c39605ba.js:15:11817)
+    at t.exports (https://abs.twimg.com/responsive-web/client-web/shared~bundle.Routes~loader.HWCard~bundle.LiveEvent~bundle.Grok~bundle.Ocf~ondemand.Verified~bundle.UserProfi.c39605ba.js:16:300)
+    at t.exports (https://abs.twimg.com/responsive-web/client-web/shared~bundle.Routes~loader.HWCard~bundle.LiveEvent~bundle.Grok~bundle.Ocf~ondemand.Verified~bundle.UserProfi.c39605ba.js:15:11591)
+    at t.exports (https://abs.twimg.com/responsive-web/client-web/shared~bundle.Routes~loader.HWCard~bundle.LiveEvent~bundle.Grok~bundle.Ocf~ondemand.Verified~bundle.UserProfi.c39605ba.js:15:5494)
+    at https://abs.twimg.com/responsive-web/client-web/shared~bundle.Routes~loader.HWCard~bundle.LiveEvent~bundle.Grok~bundle.Ocf~ondemand.Verified~bundle.UserProfi.c39605ba.js:3:7391
+    at Object.ej (https://abs.twimg.com/responsive-web/client-web/vendor.64e953aa.js:69:8007)
+    at eW (https://abs.twimg.com/responsive-web/client-web/vendor.64e953aa.js:69:8161)
+    at https://abs.twimg.com/responsive-web/client-web/vendor.64e953aa.js:69:26473

@@ -1,0 +1,38 @@
+- generic [ref=e3]:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - dialog:
+            - group [ref=e126]:
+              - dialog "Xにログイン" [ref=e128]:
+                - group [ref=e131]:
+                  - generic [ref=e136]:
+                    - button "閉じる" [active] [ref=e138] [cursor=pointer]:
+                      - img [ref=e140]
+                    - img "X" [ref=e145]
+                  - generic [ref=e152]:
+                    - heading "Xにログイン" [level=1] [ref=e155]:
+                      - generic [ref=e156]: Xにログイン
+                    - iframe [ref=e159]:
+                      - button "Google でログイン。新しいタブで開きます" [ref=f5e3] [cursor=pointer]:
+                        - generic [ref=f5e5]:
+                          - img [ref=f5e7]
+                          - generic [ref=f5e14]: Google でログイン
+                    - button "Appleのアカウントでログイン" [ref=e160] [cursor=pointer]:
+                      - generic [ref=e161]:
+                        - img [ref=e162]
+                        - generic [ref=e166]: Appleのアカウントでログイン
+                    - generic [ref=e171]: または
+                    - generic [ref=e176]:
+                      - generic [ref=e178]: 電話番号/メールアドレス/ユーザー名
+                      - textbox "電話番号/メールアドレス/ユーザー名" [ref=e181]
+                    - button "次へ" [ref=e184] [cursor=pointer]:
+                      - generic [ref=e187]: 次へ
+                    - button "パスワードを忘れた場合はこちら" [ref=e188] [cursor=pointer]:
+                      - generic [ref=e191]: パスワードを忘れた場合はこちら
+                    - generic [ref=e192]:
+                      - generic [ref=e193]: アカウントをお持ちでない場合は
+                      - button "登録" [ref=e194]:
+                        - generic [ref=e195]: 登録
+  - main [ref=e4]
