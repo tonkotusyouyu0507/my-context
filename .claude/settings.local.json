@@ -12,7 +12,13 @@
       "mcp__plugin_playwright_playwright__browser_snapshot",
       "mcp__plugin_playwright_playwright__browser_navigate",
       "mcp__plugin_playwright_playwright__browser_handle_dialog",
-      "mcp__plugin_playwright_playwright__browser_press_key"
+      "mcp__plugin_playwright_playwright__browser_press_key",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "mcp__scheduled-tasks__list_scheduled_tasks",
+      "mcp__scheduled-tasks__update_scheduled_task",
+      "Bash(ls \"C:\\\\Users\\\\tonko\\\\Desktop\\\\GIThub\\\\\" 2>/dev/null || dir \"C:\\\\Users\\\\tonko\\\\Desktop\\\\GIThub\\\\\")"
     ]
   }
 }
