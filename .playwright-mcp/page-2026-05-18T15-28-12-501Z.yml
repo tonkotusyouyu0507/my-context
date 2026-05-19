@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - paragraph [ref=e4]: お金の伴走コーチング
+      - paragraph [ref=e5]: あなたの未来に、安心を。
+    - generic [ref=e6]:
+      - heading "お金の不安、 1ヶ月で手放せる。" [level=1] [ref=e7]:
+        - text: お金の不安、
+        - text: 1ヶ月で手放せる。
+      - paragraph [ref=e8]: 仕組みを作れば、意志も節約も、もういらない。
+      - paragraph [ref=e9]:
+        - text: 貯金ゼロ・家族に借金していた元看護師が、
+        - text: ADHDのまま「お金の不安が消えた」方法を、
+        - text: あなたに合わせて一緒に作ります。
+      - link "今すぐ無料で相談する →" [ref=e10] [cursor=pointer]:
+        - /url: https://lin.ee/phCRbf5
+    - generic [ref=e11]:
+      - heading "こんなお金の悩み、ありませんか？" [level=2] [ref=e12]
+      - list [ref=e13]:
+        - listitem [ref=e14]:
+          - generic [ref=e15]: ✓
+          - generic [ref=e16]: 毎月なんとなく過ぎていって、気づいたら残高が減っている
+        - listitem [ref=e17]:
+          - generic [ref=e18]: ✓
+          - generic [ref=e19]: NISAは始めたけど、これで合ってるのか自信がない
+        - listitem [ref=e20]:
+          - generic [ref=e21]: ✓
+          - generic [ref=e22]: 家計簿、何度やっても続かない
+        - listitem [ref=e23]:
+          - generic [ref=e24]: ✓
+          - generic [ref=e25]: 投資を始めたいけど、失敗が怖くて動けない
+        - listitem [ref=e26]:
+          - generic [ref=e27]: ✓
+          - generic [ref=e28]: 「貯金できない自分」がダメな気がして、誰にも相談できない
+    - generic [ref=e30]:
+      - heading "受講生の変化ストーリー" [level=2] [ref=e31]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - paragraph [ref=e34]: Before（受講前）
+          - list [ref=e35]:
+            - listitem [ref=e36]: 毎月の支出が把握できていない
+            - listitem [ref=e37]: 将来が不安で、心に余裕がない
+            - listitem [ref=e38]: やりたいことを我慢していた
+        - generic [ref=e39]: →
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: After（1ヶ月後）
+          - list [ref=e42]:
+            - listitem [ref=e43]: 支出を整え、貯金できるように
+            - listitem [ref=e44]: 将来の見通しが持てて安心
+            - listitem [ref=e45]: NISAで投資がスタート
+      - generic [ref=e46]:
+        - paragraph [ref=e47]: 「実は僕も、ずっとお金が貯まらない人間でした。」
+        - paragraph [ref=e48]: 20代の頃、スポーツカーをフルローンで購入。スノボにキャンプ、気づけば貯金ゼロ。家族に借金していた時期もありました。
+        - paragraph [ref=e49]: 家計簿をつけ始めたけど、3日で止まる。節約しようとしたけど、続かない。「自分は意志が弱いのかな」と思っていました。
+        - paragraph [ref=e50]:
+          - text: でも後から分かったんです。
+          - strong [ref=e51]: 意志の問題じゃなかった。仕組みができていなかっただけ。
+        - paragraph [ref=e52]: FPの資格を取りながら自分で試行錯誤して、「意志ゼロでも続く」仕組みを作れました。 実はADHDだから、意志に頼れない。だから仕組みを突き詰めた。それが逆に、「普通の人が続けられる方法」になりました。
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]: 赤字家計
+            - generic [ref=e56]: →
+            - generic [ref=e57]: 毎月自動で黒字になる仕組み
+          - generic [ref=e58]:
+            - generic [ref=e59]: 投資ゼロ・怖い
+            - generic [ref=e60]: →
+            - generic [ref=e61]: NISAで資産が増え続ける状態
+          - generic [ref=e62]:
+            - generic [ref=e63]: 借金あり
+            - generic [ref=e64]: →
+            - generic [ref=e65]: お金の不安が消えた暮らし
+    - generic [ref=e66]:
+      - heading "プログラムの3つの特徴" [level=2] [ref=e67]
+      - paragraph [ref=e68]: 「知識を教える」じゃなく、「動ける状態を作る」
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e71]: "01"
+          - generic [ref=e72]:
+            - heading "お金の全体像がクリアになる" [level=3] [ref=e73]
+            - paragraph [ref=e74]: 毎月いくら使えて・いくら貯まるかが数字で見える状態になります。収支の把握から始めて、あなたに合ったお金の設計図をつくります。
+        - generic [ref=e75]:
+          - generic [ref=e76]: "02"
+          - generic [ref=e77]:
+            - heading "ムリなく続く仕組みづくり" [level=3] [ref=e78]
+            - paragraph [ref=e79]: 家計管理や貯金の習慣を、意志ゼロで続けられる仕組みとして身につけます。「続かないのはあなたのせいじゃない」を一緒に証明します。
+        - generic [ref=e80]:
+          - generic [ref=e81]: "03"
+          - generic [ref=e82]:
+            - heading "NISAで投資が実際にスタート" [level=3] [ref=e83]
+            - paragraph [ref=e84]: 1ヶ月後には、NISAで実際に投資が始まっている状態になります。知識だけでなく、「動いた」という確かな実績をつくります。
+    - generic [ref=e86]:
+      - heading "5週間のカリキュラム" [level=2] [ref=e87]
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e90]: WEEK 1
+          - generic [ref=e91]:
+            - paragraph [ref=e92]: 家計管理の土台づくり
+            - paragraph [ref=e93]: 家計簿アプリの導入・証券口座の準備
+        - generic [ref=e94]:
+          - generic [ref=e95]: WEEK 2
+          - generic [ref=e96]:
+            - paragraph [ref=e97]: 支出の見える化
+            - paragraph [ref=e98]: スプレッドシートで収支を丸ごと整理
+        - generic [ref=e99]:
+          - generic [ref=e100]: WEEK 3
+          - generic [ref=e101]:
+            - paragraph [ref=e102]: 見直しと予算設計
+            - paragraph [ref=e103]: 「何にいくら使うか」の自分ルールを作る
+        - generic [ref=e104]:
+          - generic [ref=e105]: WEEK 4
+          - generic [ref=e106]:
+            - paragraph [ref=e107]: 投資スタート
+            - paragraph [ref=e108]: NISAでインデックスファンドを実際に購入
+        - generic [ref=e109]:
+          - generic [ref=e110]: WEEK 5
+          - generic [ref=e111]:
+            - paragraph [ref=e112]: 自走できる状態へ
+            - paragraph [ref=e113]: 振り返り・仕組みの最終整備・一人で続ける準備
+      - generic [ref=e114]:
+        - paragraph [ref=e115]: サポート内容
+        - list [ref=e116]:
+          - listitem [ref=e117]: ✓ 毎日LINEサポート（質問・不安・進捗確認）
+          - listitem [ref=e118]: ✓ 週1回Zoomセッション（30〜60分）
+    - generic [ref=e119]:
+      - heading "こんな方に向いています" [level=2] [ref=e120]
+      - list [ref=e121]:
+        - listitem [ref=e122]:
+          - generic [ref=e123]: ◎
+          - generic [ref=e124]: お金のことを、誰かと一緒に整理したい
+        - listitem [ref=e125]:
+          - generic [ref=e126]: ◎
+          - generic [ref=e127]: NISAは始めたけど、正直よく分かっていない
+        - listitem [ref=e128]:
+          - generic [ref=e129]: ◎
+          - generic [ref=e130]: 一人でやって続かなかった経験がある
+        - listitem [ref=e131]:
+          - generic [ref=e132]: ◎
+          - generic [ref=e133]: 投資を始めたいけど、一歩踏み出せないでいる
+        - listitem [ref=e134]:
+          - generic [ref=e135]: ◎
+          - generic [ref=e136]: 知識より「実際に動ける状態」が欲しい
+    - generic [ref=e138]:
+      - heading "コーチプロフィール" [level=2] [ref=e139]
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - img "きょうすけ" [ref=e142]
+          - generic [ref=e143]:
+            - paragraph [ref=e144]: 仕組み化家計サポーター
+            - paragraph [ref=e145]: きょうすけ
+            - generic [ref=e146]:
+              - generic [ref=e147]: 元看護師
+              - generic [ref=e148]: FP2級
+              - generic [ref=e149]: ADHD当事者
+              - generic [ref=e150]: 2歳の娘のパパ
+        - paragraph [ref=e151]: 貯金ゼロ・家族に借金していた20代から、「お金の不安が消えた」今へ。
+        - paragraph [ref=e152]:
+          - text: 「正解を教えるより、自分のものさしを渡せる人でいたい。」
+          - text: 数字だけでなく、その人の状況や気持ちに寄り添いながら一緒に進めます。
+    - generic [ref=e153]:
+      - heading "料金・お申込み" [level=2] [ref=e154]
+      - generic [ref=e155]:
+        - generic [ref=e156]: 期間限定モニター価格
+        - paragraph [ref=e157]: 通常価格 ¥99,800
+        - paragraph [ref=e158]: ¥49,800（税込）
+        - paragraph [ref=e159]: 現在モニター期間のため、特別価格でご提供しています。
+        - list [ref=e160]:
+          - listitem [ref=e161]: ✓ 5週間の個別伴走サポート
+          - listitem [ref=e162]: ✓ 毎日LINEサポート付き
+          - listitem [ref=e163]: ✓ 週1回Zoomセッション付き
+        - link "今すぐ申し込む →" [ref=e164] [cursor=pointer]:
+          - /url: https://lin.ee/phCRbf5
+      - paragraph [ref=e165]: ① LINEを追加 → ②「相談したい」と送る → ③ 日程調整 → ④ 無料カウンセリング（60分） → ⑤ 申し込み
+    - generic [ref=e167]:
+      - heading "よくあるご質問" [level=2] [ref=e168]
+      - generic [ref=e169]:
+        - button "Q. 投資の知識がゼロでも大丈夫ですか？ +" [ref=e171]:
+          - generic [ref=e172]: Q. 投資の知識がゼロでも大丈夫ですか？
+          - generic [ref=e173]: +
+        - button "Q. NISAはすでに始めています。それでも参加できますか？ +" [ref=e175]:
+          - generic [ref=e176]: Q. NISAはすでに始めています。それでも参加できますか？
+          - generic [ref=e177]: +
+        - button "Q. 毎日LINEは大変そうです… +" [ref=e179]:
+          - generic [ref=e180]: Q. 毎日LINEは大変そうです…
+          - generic [ref=e181]: +
+        - button "Q. 忙しくて時間がとれるか不安です +" [ref=e183]:
+          - generic [ref=e184]: Q. 忙しくて時間がとれるか不安です
+          - generic [ref=e185]: +
+        - button "Q. 途中でついていけなくなったら？ +" [ref=e187]:
+          - generic [ref=e188]: Q. 途中でついていけなくなったら？
+          - generic [ref=e189]: +
+        - button "Q. モニター価格はいつまでですか？ +" [ref=e191]:
+          - generic [ref=e192]: Q. モニター価格はいつまでですか？
+          - generic [ref=e193]: +
+    - generic [ref=e194]:
+      - paragraph [ref=e195]: 「このままでいいのかな」と感じているなら、
+      - paragraph [ref=e196]: それはもうサインです。
+      - heading "続かないのは、あなたのせいじゃない。" [level=2] [ref=e197]
+      - paragraph [ref=e198]: 仕組みができていないだけ。一緒に、1ヶ月で変えましょう。
+      - link "無料相談に申し込む →" [ref=e199] [cursor=pointer]:
+        - /url: https://lin.ee/phCRbf5
+    - contentinfo [ref=e200]:
+      - paragraph [ref=e201]: © 2026 きょうすけ｜仕組み化家計サポーター
+  - button "Open Next.js Dev Tools" [ref=e207] [cursor=pointer]:
+    - img [ref=e208]
+  - alert [ref=e211]
