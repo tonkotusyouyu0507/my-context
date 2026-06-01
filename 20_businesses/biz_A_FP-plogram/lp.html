@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>家計改善伴走プログラム｜1か月で家計の不安を「自分で整えられる」に変える</title>
+  <style>
+    :root {
+      --teal:    #00B4A6;
+      --teal-d:  #009189;
+      --teal-bg: #E6F5F4;
+      --teal-bg2:#F0FAF9;
+      --cream:   #FFFCF7;
+      --warm:    #F6F4F1;
+      --border:  #E8E8E8;
+      --text:    #1A1A1A;
+      --sub:     #888;
+      --red-light:#FFF0F0;
+      --red:     #E05555;
+      --r:       16px;
+      --r-sm:    10px;
+      --shadow:  0 4px 20px rgba(0,0,0,.07);
+      --shadow-teal: 0 6px 24px rgba(0,180,166,.22);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Meiryo', sans-serif;
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.8;
+      background: #fff;
+    }
+
+    /* ─── Button ─── */
+    .btn {
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+      background: var(--teal);
+      color: #fff;
+      font-size: 17px;
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      padding: 18px 24px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      transition: all .2s;
+      letter-spacing: .04em;
+      position: relative;
+    }
+    .btn::after { content: ' ›'; font-size: 22px; line-height: 1; vertical-align: middle; }
+    .btn:hover { background: var(--teal-d); transform: translateY(-2px); box-shadow: var(--shadow-teal); }
+    .btn-white { background: #fff; color: var(--teal); }
+    .btn-white:hover { background: #f0fafa; }
+
+    /* ─── Common ─── */
+    .sec { padding: 56px 20px; }
+    .sec-cream  { background: var(--cream); }
+    .sec-warm   { background: var(--warm); }
+    .sec-teal   { background: var(--teal-bg); }
+    .sec-dots {
+      background-color: var(--warm);
+      background-image: radial-gradient(circle, #D8D4CE 1px, transparent 1px);
+      background-size: 22px 22px;
+    }
+    .sec-stripe {
+      background: repeating-linear-gradient(
+        -45deg,
+        var(--teal-bg),
+        var(--teal-bg) 4px,
+        #fff 4px,
+        #fff 24px
+      );
+    }
+
+    .inner { max-width: 560px; margin: 0 auto; }
+
+    .sec-ttl {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.5;
+      margin-bottom: 6px;
+    }
+    .sec-label {
+      display: block;
+      text-align: center;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .sec-bar {
+      width: 36px; height: 3px;
+      background: var(--teal);
+      border-radius: 2px;
+      margin: 10px auto 28px;
+    }
+
+    /* ─── HERO ─── */
+    .hero {
+      background: linear-gradient(160deg, var(--teal-bg) 0%, #fff 55%);
+      padding: 48px 24px 56px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-deco1 {
+      position: absolute; top: -50px; right: -50px;
+      width: 180px; height: 180px; border-radius: 50%;
+      background: rgba(0,180,166,.08);
+    }
+    .hero-deco2 {
+      position: absolute; bottom: 0px; left: -40px;
+      width: 120px; height: 120px; border-radius: 50%;
+      background: rgba(0,180,166,.06);
+    }
+    .hero-deco3 {
+      position: absolute; top: 40%; right: -20px;
+      width: 60px; height: 60px; border-radius: 50%;
+      background: rgba(0,180,166,.05);
+    }
+    .hero-img {
+      width: 140px; height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #fff;
+      box-shadow: 0 6px 28px rgba(0,0,0,.13);
+      margin: 0 auto 22px;
+      display: block;
+      position: relative; z-index: 1;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(0,180,166,.12);
+      border: 1px solid rgba(0,180,166,.3);
+      color: var(--teal);
+      font-size: 11px; font-weight: 700;
+      padding: 4px 14px; border-radius: 20px;
+      margin-bottom: 14px; letter-spacing: .04em;
+    }
+    .hero-h1 {
+      font-size: 27px; font-weight: 900;
+      line-height: 1.5; margin-bottom: 10px;
+      position: relative; z-index: 1;
+    }
+    .hero-h1 em { color: var(--teal); font-style: normal; }
+    .hero-sub { font-size: 13px; color: var(--sub); margin-bottom: 28px; }
+    .hero-pills {
+      display: flex; flex-wrap: wrap;
+      gap: 8px; justify-content: center;
+      margin-bottom: 30px;
+    }
+    .hero-pill {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 50px;
+      font-size: 12px; font-weight: 700;
+      padding: 6px 14px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    }
+    .hero-pill span { color: var(--teal); }
+    .hero-note { font-size: 11px; color: var(--sub); margin-top: 10px; }
+
+    /* ─── PAIN ─── */
+    .pain-item {
+      background: #fff;
+      border-radius: var(--r);
+      padding: 16px 18px;
+      box-shadow: var(--shadow);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 10px;
+      border-left: 4px solid var(--teal);
+    }
+    .pain-item:last-child { margin-bottom: 0; }
+    .pain-chk {
+      width: 26px; height: 26px; border-radius: 50%;
+      background: var(--teal);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .pain-chk svg { width: 13px; height: 13px; }
+    .pain-txt { font-size: 14px; font-weight: 600; }
+
+    /* ─── PROBLEM ─── */
+    .prob-intro-txt {
+      text-align: center; font-size: 13px;
+      color: var(--sub); margin-bottom: 22px; line-height: 1.9;
+    }
+    .flow-step {
+      background: #fff;
+      border-radius: var(--r);
+      padding: 14px 18px;
+      box-shadow: var(--shadow);
+      display: flex; align-items: center; gap: 14px;
+    }
+    .flow-ico {
+      width: 48px; height: 48px; border-radius: 50%;
+      background: var(--warm);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .flow-ico svg { width: 22px; height: 22px; }
+    .flow-name { font-size: 14px; font-weight: 700; }
+    .flow-desc { font-size: 11px; color: var(--sub); }
+    .flow-arr {
+      text-align: center; font-size: 24px;
+      color: var(--teal); line-height: 1; padding: 4px 0;
+    }
+    .flow-result {
+      background: linear-gradient(135deg, var(--teal) 0%, #00CDB9 100%);
+      color: #fff; border-radius: var(--r);
+      padding: 20px; text-align: center;
+      font-size: 14px; font-weight: 700; line-height: 1.8;
+      box-shadow: var(--shadow-teal);
+      margin-top: 4px;
+    }
+
+    /* ─── GOALS ─── */
+    .goal-card {
+      background: #fff;
+      border-radius: var(--r);
+      padding: 20px 18px;
+      box-shadow: var(--shadow);
+      display: flex; align-items: center; gap: 16px;
+      margin-bottom: 12px;
+    }
+    .goal-card:last-child { margin-bottom: 0; }
+    .goal-ico {
+      width: 58px; height: 58px;
+      border-radius: 16px;
+      background: var(--teal-bg);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .goal-ico svg { width: 30px; height: 30px; }
+    .goal-step { font-size: 10px; color: var(--teal); font-weight: 700; margin-bottom: 3px; letter-spacing: .05em; }
+    .goal-ttl { font-size: 15px; font-weight: 700; line-height: 1.5; }
+
+    /* ─── INTRO ─── */
+    .intro-card {
+      background: #fff;
+      border-radius: var(--r);
+      border-left: 5px solid var(--teal);
+      padding: 22px 20px;
+      box-shadow: var(--shadow);
+    }
+    .intro-head {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 12px;
+    }
+    .intro-head-ico {
+      width: 36px; height: 36px;
+      background: var(--teal-bg); border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .intro-head-ico svg { width: 20px; height: 20px; }
+    .intro-ttl { font-size: 15px; font-weight: 700; color: var(--teal); }
+    .intro-txt { font-size: 13px; color: var(--sub); line-height: 1.9; }
+
+    /* ─── REASONS ─── */
+    .reason-card {
+      background: #fff;
+      border-radius: var(--r);
+      padding: 18px 18px;
+      box-shadow: var(--shadow);
+      display: flex; gap: 14px;
+      margin-bottom: 12px;
+    }
+    .reason-card:last-child { margin-bottom: 0; }
+    .reason-num {
+      background: var(--teal); color: #fff;
+      font-size: 14px; font-weight: 900;
+      width: 30px; height: 30px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; margin-top: 2px;
+    }
+    .reason-ico { flex-shrink: 0; display: flex; align-items: flex-start; padding-top: 4px; }
+    .reason-ico svg { width: 22px; height: 22px; }
+    .reason-ttl { font-size: 14px; font-weight: 700; margin-bottom: 3px; }
+    .reason-sub { font-size: 12px; color: var(--sub); }
+
+    /* ─── WEEK TIMELINE ─── */
+    .tl-wrap {
+      position: relative;
+      padding-left: 6px;
+    }
+    .tl-wrap::before {
+      content: '';
+      position: absolute;
+      left: 28px; top: 24px; bottom: 24px;
+      width: 2px;
+      background: linear-gradient(to bottom, var(--teal), #00CDB9);
+    }
+    .tl-item {
+      display: flex; gap: 14px;
+      margin-bottom: 14px;
+      position: relative;
+    }
+    .tl-item:last-child { margin-bottom: 0; }
+    .tl-badge {
+      background: var(--teal); color: #fff;
+      font-size: 10px; font-weight: 700;
+      width: 46px; min-width: 46px;
+      border-radius: 8px;
+      text-align: center; padding: 7px 4px;
+      line-height: 1.4; z-index: 1;
+    }
+    .tl-card {
+      background: #fff;
+      border-radius: var(--r-sm);
+      padding: 13px 16px;
+      box-shadow: var(--shadow);
+      flex: 1;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .tl-ico { flex-shrink: 0; }
+    .tl-ico svg { width: 22px; height: 22px; }
+    .tl-name { font-size: 14px; font-weight: 700; }
+    .tl-desc { font-size: 11px; color: var(--sub); }
+
+    /* ─── TARGET ─── */
+    .target-item {
+      background: #fff;
+      border-radius: var(--r-sm);
+      padding: 13px 16px;
+      box-shadow: var(--shadow);
+      display: flex; align-items: center; gap: 12px;
+      margin-bottom: 8px; font-size: 14px; font-weight: 500;
+    }
+    .target-item:last-child { margin-bottom: 0; }
+    .t-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--teal); flex-shrink: 0;
+    }
+
+    /* ─── CONSULT ─── */
+    .consult-card {
+      background: linear-gradient(135deg, var(--teal-bg) 0%, #E0F7F5 100%);
+      border: 2px solid var(--teal);
+      border-radius: var(--r);
+      padding: 22px 20px; margin-top: 20px;
+    }
+    .consult-ttl {
+      font-size: 14px; font-weight: 700; color: var(--teal);
+      margin-bottom: 12px; display: flex; align-items: center; gap: 6px;
+    }
+    .consult-ttl svg { width: 18px; height: 18px; }
+    .consult-item { display: flex; align-items: center; gap: 10px; font-size: 13px; padding: 6px 0; }
+    .c-chk-wrap {
+      width: 20px; height: 20px; border-radius: 50%;
+      background: var(--teal);
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .c-chk-wrap svg { width: 11px; height: 11px; }
+
+    /* ─── SUPPORT ─── */
+    .support-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+    .sup-item { text-align: center; }
+    .sup-ico {
+      width: 60px; height: 60px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.9);
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 8px;
+      box-shadow: 0 4px 14px rgba(0,0,0,.08);
+    }
+    .sup-ico svg { width: 28px; height: 28px; }
+    .sup-lbl { font-size: 11px; font-weight: 700; color: var(--text); line-height: 1.5; }
+
+    /* ─── PRICING ─── */
+    .price-card {
+      background: linear-gradient(160deg, #fff 0%, var(--teal-bg) 100%);
+      border-radius: 22px;
+      padding: 38px 28px;
+      text-align: center;
+      box-shadow: 0 8px 40px rgba(0,180,166,.15);
+      border: 1px solid rgba(0,180,166,.25);
+      position: relative; overflow: hidden;
+    }
+    .price-deco {
+      position: absolute; top: -40px; right: -40px;
+      width: 130px; height: 130px; border-radius: 50%;
+      background: rgba(0,180,166,.07);
+    }
+    .price-normal { font-size: 13px; color: var(--sub); margin-bottom: 4px; }
+    .price-strike { font-size: 22px; font-weight: 700; text-decoration: line-through; color: #bbb; }
+    .price-arr { font-size: 26px; color: var(--teal); margin: 8px 0; }
+    .price-badge {
+      display: inline-block; background: var(--teal); color: #fff;
+      font-size: 12px; font-weight: 700;
+      padding: 4px 18px; border-radius: 20px; margin-bottom: 10px;
+    }
+    .price-num { font-size: 52px; font-weight: 900; color: var(--teal); line-height: 1; }
+    .price-num small { font-size: 18px; }
+    .price-sub { font-size: 11px; color: var(--sub); margin: 10px 0 8px; }
+    .price-save {
+      display: inline-block; background: var(--red-light); color: var(--red);
+      font-size: 12px; font-weight: 700;
+      padding: 4px 14px; border-radius: 6px; margin-bottom: 24px;
+    }
+
+    /* ─── FAQ ─── */
+    .faq-wrap { display: flex; flex-direction: column; gap: 8px; }
+    details.faq {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,.06);
+    }
+    details.faq summary {
+      display: flex; align-items: center; gap: 10px;
+      padding: 16px 18px;
+      font-size: 13px; font-weight: 700;
+      cursor: pointer; list-style: none;
+    }
+    details.faq summary::-webkit-details-marker { display: none; }
+    .faq-q {
+      background: var(--teal); color: #fff;
+      font-size: 12px; font-weight: 900;
+      width: 24px; height: 24px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .faq-caret { margin-left: auto; color: var(--teal); transition: transform .2s; flex-shrink: 0; font-size: 14px; }
+    details[open] .faq-caret { transform: rotate(180deg); }
+    .faq-a {
+      padding: 0 18px 16px 52px;
+      font-size: 13px; color: var(--sub);
+      line-height: 1.9;
+      border-top: 1px solid #F0F0F0;
+      padding-top: 14px;
+    }
+
+    /* ─── PROFILE ─── */
+    .profile-card {
+      background: #fff;
+      border-radius: var(--r);
+      padding: 32px 24px;
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+    .prof-img {
+      width: 110px; height: 110px;
+      border-radius: 50%; object-fit: cover;
+      border: 4px solid var(--teal-bg);
+      box-shadow: 0 6px 20px rgba(0,0,0,.10);
+      margin: 0 auto 18px; display: block;
+    }
+    .prof-role { font-size: 11px; color: var(--teal); font-weight: 700; letter-spacing: .06em; margin-bottom: 4px; }
+    .prof-name { font-size: 22px; font-weight: 900; margin-bottom: 16px; }
+    .prof-divider { width: 32px; height: 3px; background: var(--teal); border-radius: 2px; margin: 0 auto 18px; }
+    .prof-txt { font-size: 13px; color: var(--sub); line-height: 2; text-align: left; }
+
+    /* ─── FINAL CTA ─── */
+    .final {
+      background: linear-gradient(135deg, var(--teal) 0%, #00CDB9 100%);
+      padding: 60px 24px;
+      text-align: center;
+      color: #fff;
+    }
+    .final-ttl { font-size: 23px; font-weight: 900; margin-bottom: 10px; }
+    .final-quote { font-size: 13px; opacity: .88; margin-bottom: 28px; line-height: 1.9; }
+    .final-note { font-size: 11px; opacity: .65; margin-top: 12px; }
+
+    footer {
+      background: #1E1E1E; color: #666;
+      font-size: 10px; text-align: center;
+      padding: 24px 20px; line-height: 2.2;
+    }
+
+    /* ─── SECTION LABEL CARDS ─── */
+    .label-badge {
+      display: inline-block;
+      background: var(--teal); color: #fff;
+      font-size: 11px; font-weight: 700;
+      padding: 3px 12px; border-radius: 20px;
+      margin-bottom: 8px; letter-spacing: .04em;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ==================== HERO ==================== -->
+<section class="hero">
+  <div class="hero-deco1"></div>
+  <div class="hero-deco2"></div>
+  <div class="hero-deco3"></div>
+
+  <span class="hero-badge">お金の不安を、安心に変える伴走サポート</span>
+
+  <img src="kyosuke.png" alt="きょうすけ" class="hero-img">
+
+  <h1 class="hero-h1">
+    1か月で、家計の不安を<br>
+    「なんとなく」から<br>
+    <em>「自分で整えられる」</em><br>に変える
+  </h1>
+  <p class="hero-sub">家計を整え、将来に向けて一歩を踏み出せる自分へ。</p>
+
+  <div class="hero-pills">
+    <span class="hero-pill"><span>✓</span> 完全個別サポート</span>
+    <span class="hero-pill"><span>✓</span> 毎日LINEサポート</span>
+    <span class="hero-pill"><span>✓</span> 週1回オンライン面談</span>
+  </div>
+
+  <a href="https://lin.ee/QDKRrtd" class="btn" target="_blank" rel="noopener">無料相談に申し込む</a>
+  <p class="hero-note">※無理な勧誘はありません</p>
+</section>
+
+
+<!-- ==================== PAIN ==================== -->
+<section class="sec sec-cream">
+  <div class="inner">
+    <span class="sec-label">お悩み</span>
+    <p class="sec-ttl">こんなお悩み、<br>ありませんか？</p>
+    <div class="sec-bar"></div>
+
+    <div class="pain-item">
+      <span class="pain-chk"><svg viewBox="0 0 13 13" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 6.5 5.5 10 11 3"/></svg></span>
+      <span class="pain-txt">毎月ギリギリで、貯金が増えない</span>
+    </div>
+    <div class="pain-item">
+      <span class="pain-chk"><svg viewBox="0 0 13 13" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 6.5 5.5 10 11 3"/></svg></span>
+      <span class="pain-txt">何にいくら使っているか分からない</span>
+    </div>
+    <div class="pain-item">
+      <span class="pain-chk"><svg viewBox="0 0 13 13" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 6.5 5.5 10 11 3"/></svg></span>
+      <span class="pain-txt">将来のお金に漠然とした不安がある</span>
+    </div>
+    <div class="pain-item">
+      <span class="pain-chk"><svg viewBox="0 0 13 13" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 6.5 5.5 10 11 3"/></svg></span>
+      <span class="pain-txt">投資を始めたいけど、順番が分からない</span>
+    </div>
+    <div class="pain-item">
+      <span class="pain-chk"><svg viewBox="0 0 13 13" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 6.5 5.5 10 11 3"/></svg></span>
+      <span class="pain-txt">家計管理を続けられない</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== PROBLEM FLOW ==================== -->
+<section class="sec sec-dots">
+  <div class="inner">
+    <span class="sec-label">原因</span>
+    <p class="sec-ttl">家計の不安は、意志の弱さではなく<br><span style="color:var(--teal)">「仕組み」がない</span>ことから生まれます</p>
+    <div class="sec-bar"></div>
+
+    <p class="prob-intro-txt">多くの人が家計でつまずくのは<br>やる気や数字の問題ではありません。<br>原因はシンプルです。</p>
+
+    <div class="flow-step">
+      <div class="flow-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M8 15s1-2 4-2 4 2 4 2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/>
+        </svg>
+      </div>
+      <div>
+        <p class="flow-name">収支が見えない</p>
+        <p class="flow-desc">何にいくら使っているか不明確</p>
+      </div>
+    </div>
+    <div class="flow-arr">↓</div>
+
+    <div class="flow-step">
+      <div class="flow-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+        </svg>
+      </div>
+      <div>
+        <p class="flow-name">不安が大きくなる</p>
+        <p class="flow-desc">「このままでいいのか」と焦り続ける</p>
+      </div>
+    </div>
+    <div class="flow-arr">↓</div>
+
+    <div class="flow-step">
+      <div class="flow-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="1 4 1 10 7 10"/>
+          <path d="M3.51 15a9 9 0 1 0 .49-5.1L1 10"/>
+        </svg>
+      </div>
+      <div>
+        <p class="flow-name">行動に移せない</p>
+        <p class="flow-desc">何から始めればいいか分からず先延ばし</p>
+      </div>
+    </div>
+    <div class="flow-arr">↓</div>
+
+    <div class="flow-result">
+      この悪循環を断ち切るには、<br>根性でなく<strong>「仕組み」</strong>が必要です。<br>このプログラムが、その仕組みをつくります。
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== GOALS ==================== -->
+<section class="sec">
+  <div class="inner">
+    <span class="sec-label">ゴール</span>
+    <p class="sec-ttl">このプログラムで<br>目指すゴール</p>
+    <div class="sec-bar"></div>
+
+    <div class="goal-card">
+      <div class="goal-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 9h1a2 2 0 0 1 0 4h-1"/><path d="M5 9a7 7 0 1 0 14 0H5z"/>
+          <path d="M10 9V5a2 2 0 0 1 4 0v4"/><line x1="8" y1="20" x2="8" y2="17"/><line x1="16" y1="20" x2="16" y2="17"/><circle cx="15" cy="12" r="1" fill="#00B4A6"/>
+        </svg>
+      </div>
+      <div>
+        <p class="goal-step">GOAL 01</p>
+        <p class="goal-ttl">家計を正しく把握し、<br>お金の不安が減る</p>
+      </div>
+    </div>
+
+    <div class="goal-card">
+      <div class="goal-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+        </svg>
+      </div>
+      <div>
+        <p class="goal-step">GOAL 02</p>
+        <p class="goal-ttl">自分で判断・改善できる<br>力が身につく</p>
+      </div>
+    </div>
+
+    <div class="goal-card">
+      <div class="goal-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22V12"/><path d="M12 12C12 7 17 4 20 4c0 4-2.5 8-8 8z"/><path d="M12 12C12 7 7 4 4 4c0 4 2.5 8 8 8z"/>
+        </svg>
+      </div>
+      <div>
+        <p class="goal-step">GOAL 03</p>
+        <p class="goal-ttl">将来の目標に向けて<br>一歩を踏み出せる</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== INTRO ==================== -->
+<section class="sec sec-teal">
+  <div class="inner">
+    <span class="sec-label">プログラム紹介</span>
+    <p class="sec-ttl">家計改善プログラムとは</p>
+    <div class="sec-bar"></div>
+
+    <div class="intro-card">
+      <div class="intro-head">
+        <div class="intro-head-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+          </svg>
+        </div>
+        <p class="intro-ttl">1か月・完全個別の伴走サポート</p>
+      </div>
+      <p class="intro-txt">
+        お金の流れを「見える化」し、ムリなく続く仕組みをつくることで、家計に自信を取り戻す<strong>1か月間のマンツーマンサポート</strong>です。<br><br>
+        動画やワークで基礎を学びながら、毎日のLINEサポートと週1回の面談を通して、あなたの状況に合わせて実際の行動に落とし込んでいきます。<br><br>
+        「知って終わり」ではなく、<strong>やって変わること</strong>を大切にしたプログラムです。
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== REASONS ==================== -->
+<section class="sec">
+  <div class="inner">
+    <span class="sec-label">選ばれる理由</span>
+    <p class="sec-ttl">このプログラムが<br>選ばれる3つの理由</p>
+    <div class="sec-bar"></div>
+
+    <div class="reason-card">
+      <span class="reason-num">1</span>
+      <div class="reason-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+        </svg>
+      </div>
+      <div>
+        <p class="reason-ttl">完全個別で進めるから続く</p>
+        <p class="reason-sub">あなたの状況に合わせたオーダーメイド設計。画一的なアドバイスは一切なし。</p>
+      </div>
+    </div>
+
+    <div class="reason-card">
+      <span class="reason-num">2</span>
+      <div class="reason-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+        </svg>
+      </div>
+      <div>
+        <p class="reason-ttl">毎日のLINEで行動が止まらない</p>
+        <p class="reason-sub">疑問もモヤモヤもその日中に解消。一人で抱え込まずに前に進める。</p>
+      </div>
+    </div>
+
+    <div class="reason-card">
+      <span class="reason-num">3</span>
+      <div class="reason-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/>
+        </svg>
+      </div>
+      <div>
+        <p class="reason-ttl">家計が整ってから投資へ</p>
+        <p class="reason-sub">いきなり投資を急かしません。安心できる土台を作ってから進む。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== WEEK PROGRAM ==================== -->
+<section class="sec sec-warm">
+  <div class="inner">
+    <span class="sec-label">プログラム内容</span>
+    <p class="sec-ttl">1か月のプログラム</p>
+    <div class="sec-bar"></div>
+
+    <div class="tl-wrap">
+      <div class="tl-item">
+        <div class="tl-badge">Week1<br>土台</div>
+        <div class="tl-card">
+          <div class="tl-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+          <div><p class="tl-name">家計の土台づくり</p><p class="tl-desc">全体像をつかみ、目標を設定します</p></div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-badge">Week2<br>把握</div>
+        <div class="tl-card">
+          <div class="tl-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <div><p class="tl-name">収支の見える化</p><p class="tl-desc">収入・支出を整理し、お金の流れを把握</p></div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-badge">Week3<br>予算</div>
+        <div class="tl-card">
+          <div class="tl-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="9" y1="7" x2="15" y2="7"/><line x1="9" y1="11" x2="15" y2="11"/><line x1="9" y1="15" x2="12" y2="15"/></svg></div>
+          <div><p class="tl-name">予算設計と仕組み化</p><p class="tl-desc">ムリなく続く予算とルールをつくります</p></div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-badge">Week4<br>投資</div>
+        <div class="tl-card">
+          <div class="tl-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M12 12C12 7 17 4 20 4c0 4-2.5 8-8 8z"/><path d="M12 12C12 7 7 4 4 4c0 4 2.5 8 8 8z"/></svg></div>
+          <div><p class="tl-name">将来に向けた一歩</p><p class="tl-desc">家計が整ったうえで投資の基本を学びます</p></div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-badge">Week5<br>定着</div>
+        <div class="tl-card">
+          <div class="tl-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+          <div><p class="tl-name">振り返りと定着</p><p class="tl-desc">成果を振り返り、改善サイクルをつくります</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== TARGET ==================== -->
+<section class="sec sec-cream">
+  <div class="inner">
+    <span class="sec-label">こんな方へ</span>
+    <p class="sec-ttl">こんな方に<br>おすすめです</p>
+    <div class="sec-bar"></div>
+
+    <div class="target-item"><span class="t-dot"></span>家計を改善して、将来に備えたい方</div>
+    <div class="target-item"><span class="t-dot"></span>何から始めればいいか分からない方</div>
+    <div class="target-item"><span class="t-dot"></span>忙しくても効率的に改善したい方</div>
+    <div class="target-item"><span class="t-dot"></span>一人だと続かないと感じている方</div>
+    <div class="target-item"><span class="t-dot"></span>投資を始めたいけど不安がある方</div>
+
+    <div class="consult-card">
+      <p class="consult-ttl">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        無料相談でわかること
+      </p>
+      <div class="consult-item">
+        <span class="c-chk-wrap"><svg viewBox="0 0 11 11" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="1.5 5.5 4.5 8.5 9.5 2.5"/></svg></span>
+        あなたの家計の課題と改善ポイント
+      </div>
+      <div class="consult-item">
+        <span class="c-chk-wrap"><svg viewBox="0 0 11 11" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="1.5 5.5 4.5 8.5 9.5 2.5"/></svg></span>
+        最適な進め方と優先順位
+      </div>
+      <div class="consult-item">
+        <span class="c-chk-wrap"><svg viewBox="0 0 11 11" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="1.5 5.5 4.5 8.5 9.5 2.5"/></svg></span>
+        プログラムの詳細とサポート内容
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== SUPPORT ==================== -->
+<section class="sec" style="background:linear-gradient(135deg, var(--teal) 0%, #00CDB9 100%);">
+  <div class="inner">
+    <span class="sec-label" style="color:rgba(255,255,255,.8);">サポート内容</span>
+    <p class="sec-ttl" style="color:#fff;">充実のサポートで<br>一人にしません</p>
+    <div class="sec-bar" style="background:rgba(255,255,255,.5);"></div>
+
+    <div class="support-grid">
+      <div class="sup-item">
+        <div class="sup-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+        </div>
+        <p class="sup-lbl">毎日の<br>LINEサポート</p>
+      </div>
+      <div class="sup-item">
+        <div class="sup-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/>
+          </svg>
+        </div>
+        <p class="sup-lbl">週1回<br>オンライン面談</p>
+      </div>
+      <div class="sup-item">
+        <div class="sup-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>
+          </svg>
+        </div>
+        <p class="sup-lbl">オリジナル<br>家計シート</p>
+      </div>
+      <div class="sup-item">
+        <div class="sup-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+          </svg>
+        </div>
+        <p class="sup-lbl">学習<br>コンテンツ</p>
+      </div>
+      <div class="sup-item">
+        <div class="sup-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#00B4A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </div>
+        <p class="sup-lbl">いつでも<br>相談できる</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== PRICING ==================== -->
+<section class="sec">
+  <div class="inner">
+    <span class="sec-label">料金</span>
+    <p class="sec-ttl">料金</p>
+    <div class="sec-bar"></div>
+
+    <div class="price-card">
+      <div class="price-deco"></div>
+      <p class="price-normal">通常価格</p>
+      <p class="price-strike">99,800円（税込）</p>
+      <p class="price-arr">↓</p>
+      <span class="price-badge">モニター価格</span>
+      <p class="price-num">49,800<small>円（税込）</small></p>
+      <p class="price-sub">1か月・完全個別対応</p>
+      <p class="price-save">通常より 50,000円OFF</p>
+      <a href="https://lin.ee/QDKRrtd" class="btn" target="_blank" rel="noopener">無料相談に申し込む</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== FAQ ==================== -->
+<section class="sec sec-warm">
+  <div class="inner">
+    <span class="sec-label">よくある質問</span>
+    <p class="sec-ttl">よくある質問</p>
+    <div class="sec-bar"></div>
+
+    <div class="faq-wrap">
+      <details class="faq">
+        <summary>
+          <span class="faq-q">Q</span>
+          本当に1か月で変われますか？
+          <span class="faq-caret">∨</span>
+        </summary>
+        <p class="faq-a">はい。1か月で家計管理の土台を整えることを目的としています。「何にいくら使っているかがわかる」「自分の予算が決まる」という変化を一緒に目指します。</p>
+      </details>
+
+      <details class="faq">
+        <summary>
+          <span class="faq-q">Q</span>
+          投資の知識がなくても大丈夫ですか？
+          <span class="faq-caret">∨</span>
+        </summary>
+        <p class="faq-a">大丈夫です。まず家計を整えることを優先します。投資の基本をわかりやすく説明し、納得したうえで少額から始められるようサポートします。</p>
+      </details>
+
+      <details class="faq">
+        <summary>
+          <span class="faq-q">Q</span>
+          途中でやめることはできますか？
+          <span class="faq-caret">∨</span>
+        </summary>
+        <p class="faq-a">ご事情によっては対応可能です。詳細は無料相談の際にご確認ください。毎日のLINEサポートで止まりにくい仕組みもあります。</p>
+      </details>
+
+      <details class="faq">
+        <summary>
+          <span class="faq-q">Q</span>
+          どのようなツールを使いますか？
+          <span class="faq-caret">∨</span>
+        </summary>
+        <p class="faq-a">家計簿アプリとオリジナルの家計シートを使います。スマートフォンとLINEがあれば取り組めるので、難しい操作は一切不要です。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== PROFILE ==================== -->
+<section class="sec">
+  <div class="inner">
+    <span class="sec-label">ごあいさつ</span>
+    <p class="sec-ttl">ごあいさつ</p>
+    <div class="sec-bar"></div>
+
+    <div class="profile-card">
+      <img src="kyosuke.png" alt="きょうすけ" class="prof-img">
+      <p class="prof-role">ファイナンシャルコーチ</p>
+      <p class="prof-name">きょうすけ</p>
+      <div class="prof-divider"></div>
+      <p class="prof-txt">
+        はじめまして。家計と投資の最初の一歩をサポートしているきょうすけです。<br><br>
+        これまで多くの方の家計改善をサポートしてきました。大切にしているのは「寄り添い」と「仕組み化」。<br><br>
+        実は私自身、もともとは浪費癖があり赤字家計でした。お金の勉強を始めることで少しずつ家計が整い、将来への不安が減り、人生の見え方も変わっていきました。<br><br>
+        一緒に、あなたらしいお金との付き合い方を見つけていきましょう。
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== FINAL CTA ==================== -->
+<section class="final">
+  <p class="final-ttl">まずは無料相談へ</p>
+  <p class="final-quote">
+    一人で悩む時間を、<br>未来を変える時間に。
+  </p>
+  <a href="https://lin.ee/QDKRrtd" class="btn btn-white" target="_blank" rel="noopener">無料相談に申し込む</a>
+  <p class="final-note">※無理な勧誘は一切ありません。安心してご相談ください。</p>
+</section>
+
+
+<!-- ==================== FOOTER ==================== -->
+<footer>
+  <p>※本プログラムは、家計管理や資産形成の考え方を学び、実践をサポートするサービスです。</p>
+  <p>※投資には価格変動等のリスクがあり、元本割れの可能性があります。最終的な投資判断はご自身で行っていただきます。</p>
+  <p>※内容・料金は予告なく変更となる場合があります。</p>
+  <p style="margin-top:10px">&copy; 2026 家計改善伴走プログラム</p>
+</footer>
+
+</body>
+</html>

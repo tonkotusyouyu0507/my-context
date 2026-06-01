@@ -30,7 +30,22 @@
       "mcp__Claude_in_Chrome__form_input",
       "mcp__Claude_in_Chrome__javascript_tool",
       "mcp__Claude_in_Chrome__read_page",
-      "mcp__Claude_in_Chrome__computer"
+      "mcp__Claude_in_Chrome__computer",
+      "mcp__f40863af-8e33-4faf-8ba0-1d8c44fe85c5__generate-design",
+      "mcp__f40863af-8e33-4faf-8ba0-1d8c44fe85c5__create-design-from-candidate",
+      "mcp__f40863af-8e33-4faf-8ba0-1d8c44fe85c5__list-brand-kits",
+      "mcp__f40863af-8e33-4faf-8ba0-1d8c44fe85c5__export-design",
+      "Bash(curl -L \"https://export-download.canva.com/1nH7s/DAHKZo1nH7s/-1/0/0001-3228459051304479902.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260521T142532Z&X-Amz-Expires=90193&X-Amz-Signature=52aa150c5c874573bafd648041b747f3f7e1b6e0ffa4f789bf6ef7cf5ee78bfb&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2022%20May%202026%2015%3A28%3A45%20GMT\" -o \"C:/Users/tonko/Desktop/instagram_post_20260522.png\" -s)",
+      "mcp__Claude_in_Chrome__file_upload",
+      "mcp__Claude_in_Chrome__tabs_create_mcp",
+      "Read(//c/Users/tonko/Desktop/**)",
+      "Bash(python -m http.server 8765)",
+      "mcp__Claude_in_Chrome__upload_image",
+      "Bash(py --version)",
+      "WebSearch",
+      "mcp__playwright__browser_click",
+      "mcp__Claude_Preview__preview_start",
+      "mcp__Claude_in_Chrome__resize_window"
     ]
   }
 }

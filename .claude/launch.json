@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "LP Preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-l", "3000", "20_businesses/biz_A_FP-plogram"],
+      "port": 3000
+    }
+  ]
+}
